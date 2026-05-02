@@ -1,0 +1,65 @@
+{
+  "raw_dataset_path": "data/respiratory_seed_cases.csv",
+  "feature_dataset_path": "data/respiratory_feature_dataset.csv",
+  "split_manifest_path": "data/respiratory_train_test_split.json",
+  "model_path": "ml_models/respiratory_nb_model.json",
+  "train_samples": 162,
+  "test_samples": 41,
+  "feature_names": [
+    "temperature_bin",
+    "cough_type",
+    "dyspnea_level",
+    "sore_throat",
+    "runny_nose",
+    "headache_level",
+    "muscle_pain",
+    "fatigue_bin",
+    "duration_bin",
+    "oxygen_bin",
+    "heart_rate_bin",
+    "respiratory_rate_bin",
+    "chest_pain",
+    "loss_of_taste",
+    "diarrhea",
+    "covid_contact",
+    "smoker",
+    "chronic_bucket"
+  ],
+  "split_source": "manifest",
+  "metrics": {
+    "accuracy": 1.0,
+    "tested_samples": 41,
+    "per_label_accuracy": {
+      "ARVI / oddiy shamollash": 1.0,
+      "Astma xuruji": 1.0,
+      "Bronxit": 1.0,
+      "COVID-19 (mumkin)": 1.0,
+      "Gripp": 1.0,
+      "Shoshilinch yordam kerak": 1.0,
+      "Zotiljam (pnevmoniya)": 1.0
+    },
+    "confusion_matrix": {
+      "ARVI / oddiy shamollash": {
+        "ARVI / oddiy shamollash": 8
+      },
+      "Astma xuruji": {
+        "Astma xuruji": 7
+      },
+      "Bronxit": {
+        "Bronxit": 5
+      },
+      "COVID-19 (mumkin)": {
+        "COVID-19 (mumkin)": 3
+      },
+      "Gripp": {
+        "Gripp": 7
+      },
+      "Shoshilinch yordam kerak": {
+        "Shoshilinch yordam kerak": 7
+      },
+      "Zotiljam (pnevmoniya)": {
+        "Zotiljam (pnevmoniya)": 4
+      }
+    }
+  }
+}

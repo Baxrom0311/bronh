@@ -1,0 +1,204 @@
+sample_id,temperature_bin,cough_type,dyspnea_level,sore_throat,runny_nose,headache_level,muscle_pain,fatigue_bin,duration_bin,oxygen_bin,heart_rate_bin,respiratory_rate_bin,chest_pain,loss_of_taste,diarrhea,covid_contact,smoker,chronic_bucket,label
+1,normal,none,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+2,normal,dry,none,yes,yes,none,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+3,normal,none,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+4,normal,dry,mild,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+5,normal,none,none,no,yes,none,no,none,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+6,normal,none,none,yes,yes,none,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+7,normal,dry,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+8,normal,none,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+9,mild,dry,none,yes,yes,none,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+10,normal,none,none,no,yes,none,no,none,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+11,normal,dry,none,yes,yes,mild,no,mild,medium,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+12,normal,none,none,yes,yes,none,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+13,normal,none,none,no,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+14,normal,dry,none,yes,yes,none,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+15,normal,none,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+16,normal,none,none,yes,yes,none,no,none,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+17,normal,dry,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+18,normal,none,none,no,yes,none,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+19,normal,none,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+20,mild,dry,mild,yes,yes,mild,no,mild,medium,normal,mild,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+21,normal,none,none,yes,yes,none,no,none,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+22,normal,dry,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+23,normal,none,none,no,yes,none,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+24,normal,none,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+25,normal,dry,none,yes,yes,none,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+26,normal,none,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+27,normal,dry,none,yes,yes,mild,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+28,normal,none,none,no,yes,none,no,none,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+29,normal,none,none,yes,yes,none,no,mild,short,normal,normal,normal,no,no,no,no,no,none,ARVI / oddiy shamollash
+30,high,dry,mild,yes,no,moderate,yes,severe,short,borderline,mild,mild,no,no,no,no,no,none,Gripp
+31,high,dry,none,yes,no,severe,yes,severe,short,normal,high,normal,no,no,no,no,no,none,Gripp
+32,high,dry,mild,no,no,moderate,yes,moderate,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+33,high,dry,none,yes,no,moderate,yes,severe,short,borderline,mild,mild,no,no,no,no,no,none,Gripp
+34,high,dry,mild,yes,no,mild,yes,moderate,short,borderline,mild,mild,no,no,no,no,no,none,Gripp
+35,high,dry,none,no,no,severe,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+36,high,dry,mild,yes,no,moderate,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+37,mild,dry,none,yes,no,moderate,yes,moderate,short,normal,mild,normal,no,no,no,no,no,none,Gripp
+38,high,dry,none,no,no,severe,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+39,high,dry,mild,yes,no,moderate,yes,severe,medium,borderline,mild,mild,no,no,no,no,no,none,Gripp
+40,high,dry,none,yes,no,mild,yes,moderate,short,normal,mild,mild,no,no,no,no,no,none,Gripp
+41,high,dry,mild,no,no,moderate,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+42,high,dry,none,yes,no,severe,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+43,high,dry,mild,yes,no,moderate,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+44,high,dry,none,no,no,moderate,yes,moderate,short,normal,mild,normal,no,no,no,no,no,none,Gripp
+45,mild,dry,mild,yes,no,mild,yes,moderate,short,normal,mild,normal,no,no,no,no,no,none,Gripp
+46,high,dry,none,yes,no,severe,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+47,high,dry,mild,yes,no,moderate,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+48,mild,dry,none,yes,no,moderate,yes,moderate,short,borderline,mild,mild,no,no,no,no,no,none,Gripp
+49,high,dry,mild,no,no,moderate,yes,severe,short,borderline,mild,mild,no,no,no,no,no,none,Gripp
+50,high,dry,none,yes,no,mild,yes,moderate,short,normal,mild,normal,no,no,no,no,no,none,Gripp
+51,high,dry,mild,yes,no,moderate,yes,severe,short,borderline,mild,mild,no,no,no,no,no,none,Gripp
+52,high,dry,none,yes,no,severe,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+53,high,dry,mild,no,no,moderate,yes,moderate,short,borderline,mild,mild,no,no,no,no,no,none,Gripp
+54,high,dry,none,yes,no,moderate,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+55,mild,dry,mild,yes,no,mild,yes,moderate,short,normal,mild,normal,no,no,no,no,no,none,Gripp
+56,high,dry,none,yes,no,moderate,yes,severe,short,borderline,high,mild,no,no,no,no,no,none,Gripp
+57,high,dry,mild,no,no,moderate,yes,severe,short,borderline,mild,mild,no,no,no,no,no,none,Gripp
+58,high,dry,none,yes,no,severe,yes,severe,short,borderline,mild,mild,no,no,no,no,no,none,Gripp
+59,mild,wet,mild,no,no,mild,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,copd,Bronxit
+60,mild,wet,mild,no,no,none,no,mild,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+61,mild,wet,moderate,no,no,mild,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,copd,Bronxit
+62,mild,wet,mild,yes,no,mild,no,moderate,long,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+63,mild,wet,mild,no,no,none,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+64,mild,wet,mild,no,no,mild,no,mild,medium,borderline,mild,mild,no,no,no,no,no,none,Bronxit
+65,mild,wet,moderate,no,no,none,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,copd,Bronxit
+66,mild,wet,mild,no,no,mild,no,mild,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+67,mild,wet,mild,yes,no,none,no,moderate,long,borderline,mild,mild,no,no,no,no,yes,copd,Bronxit
+68,mild,wet,moderate,no,no,mild,no,moderate,medium,borderline,mild,mild,no,no,no,no,no,none,Bronxit
+69,mild,wet,mild,no,no,none,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+70,mild,wet,mild,no,no,mild,no,mild,long,borderline,mild,mild,no,no,no,no,yes,copd,Bronxit
+71,mild,wet,moderate,no,no,mild,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+72,mild,wet,mild,no,no,none,no,moderate,medium,borderline,mild,mild,no,no,no,no,no,none,Bronxit
+73,mild,wet,mild,no,no,mild,no,mild,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+74,mild,wet,moderate,no,no,none,no,moderate,long,borderline,mild,mild,no,no,no,no,yes,copd,Bronxit
+75,mild,wet,mild,no,no,mild,no,mild,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+76,mild,wet,mild,yes,no,mild,no,moderate,long,borderline,mild,mild,no,no,no,no,yes,copd,Bronxit
+77,mild,wet,moderate,no,no,none,no,moderate,medium,borderline,mild,mild,no,no,no,no,no,none,Bronxit
+78,mild,wet,mild,no,no,mild,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+79,mild,wet,mild,no,no,none,no,mild,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+80,mild,wet,moderate,no,no,mild,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,copd,Bronxit
+81,mild,wet,mild,no,no,none,no,moderate,medium,borderline,mild,mild,no,no,no,no,no,none,Bronxit
+82,mild,wet,mild,no,no,mild,no,mild,long,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+83,mild,wet,mild,yes,no,none,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+84,mild,wet,mild,no,no,mild,no,mild,medium,borderline,mild,mild,no,no,no,no,yes,copd,Bronxit
+85,mild,wet,moderate,no,no,none,no,moderate,medium,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+86,mild,wet,mild,no,no,mild,no,moderate,medium,borderline,mild,mild,no,no,no,no,no,none,Bronxit
+87,mild,wet,mild,no,no,none,no,moderate,long,borderline,mild,mild,no,no,no,no,yes,none,Bronxit
+88,high,wet,moderate,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+89,high,wet,severe,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+90,high,wet,moderate,no,no,mild,yes,severe,medium,low,high,mild,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+91,high,wet,moderate,no,no,moderate,no,moderate,long,low,high,high,yes,no,no,no,yes,none,Zotiljam (pnevmoniya)
+92,high,wet,moderate,no,no,mild,yes,moderate,medium,low,high,mild,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+93,high,wet,severe,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+94,high,wet,moderate,no,no,mild,yes,severe,medium,low,high,mild,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+95,high,wet,moderate,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,yes,none,Zotiljam (pnevmoniya)
+96,high,wet,severe,no,no,moderate,no,severe,long,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+97,high,wet,moderate,no,no,mild,yes,moderate,medium,low,mild,mild,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+98,high,wet,severe,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+99,high,wet,moderate,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+100,high,wet,moderate,no,no,mild,yes,severe,medium,low,high,mild,yes,no,no,no,yes,none,Zotiljam (pnevmoniya)
+101,high,wet,severe,no,no,moderate,no,severe,long,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+102,high,wet,moderate,no,no,mild,yes,moderate,medium,low,high,mild,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+103,high,wet,moderate,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+104,high,wet,severe,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+105,high,wet,moderate,no,no,mild,no,moderate,medium,low,mild,mild,yes,no,no,no,yes,none,Zotiljam (pnevmoniya)
+106,high,wet,severe,no,no,moderate,yes,severe,long,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+107,high,wet,moderate,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+108,high,wet,moderate,no,no,mild,yes,moderate,medium,low,high,mild,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+109,high,wet,severe,no,no,moderate,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+110,high,wet,moderate,no,no,moderate,no,severe,medium,low,high,mild,yes,no,no,no,yes,none,Zotiljam (pnevmoniya)
+111,high,wet,moderate,no,no,mild,yes,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+112,high,wet,severe,no,no,moderate,yes,severe,long,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+113,high,wet,moderate,no,no,mild,yes,moderate,medium,low,mild,mild,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+114,high,wet,severe,no,no,moderate,no,severe,medium,low,high,high,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+115,high,wet,moderate,no,no,moderate,yes,severe,medium,low,high,mild,yes,no,no,no,no,none,Zotiljam (pnevmoniya)
+116,high,wet,moderate,no,no,mild,yes,severe,medium,low,high,high,yes,no,no,no,yes,none,Zotiljam (pnevmoniya)
+117,mild,dry,mild,no,no,mild,yes,moderate,short,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+118,mild,dry,mild,no,no,moderate,yes,moderate,medium,normal,mild,normal,no,yes,yes,yes,no,none,COVID-19 (mumkin)
+119,high,dry,moderate,yes,no,mild,yes,severe,medium,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+120,mild,dry,none,no,no,none,no,moderate,short,normal,normal,normal,no,yes,no,yes,no,none,COVID-19 (mumkin)
+121,mild,dry,mild,no,no,mild,yes,moderate,short,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+122,mild,dry,mild,no,no,moderate,yes,moderate,medium,borderline,mild,mild,no,yes,yes,yes,no,none,COVID-19 (mumkin)
+123,mild,dry,none,no,no,mild,no,moderate,short,normal,mild,normal,no,yes,no,yes,no,none,COVID-19 (mumkin)
+124,mild,dry,moderate,no,no,mild,yes,severe,medium,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+125,mild,dry,mild,yes,no,moderate,yes,moderate,medium,borderline,mild,mild,no,yes,yes,yes,no,none,COVID-19 (mumkin)
+126,mild,dry,none,no,no,none,no,mild,short,normal,normal,normal,no,yes,no,yes,no,none,COVID-19 (mumkin)
+127,mild,dry,mild,no,no,mild,yes,moderate,short,borderline,mild,normal,no,yes,no,yes,no,none,COVID-19 (mumkin)
+128,mild,dry,moderate,no,no,moderate,yes,moderate,medium,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+129,mild,dry,mild,no,no,mild,yes,moderate,medium,normal,mild,normal,no,yes,yes,yes,no,none,COVID-19 (mumkin)
+130,high,dry,mild,yes,no,mild,yes,severe,medium,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+131,mild,dry,none,no,no,none,no,moderate,short,normal,normal,normal,no,yes,no,yes,no,none,COVID-19 (mumkin)
+132,mild,dry,mild,no,no,mild,yes,moderate,short,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+133,mild,dry,moderate,no,no,moderate,yes,moderate,medium,borderline,mild,mild,no,yes,yes,yes,no,none,COVID-19 (mumkin)
+134,mild,dry,none,no,no,mild,no,moderate,short,normal,mild,normal,no,yes,no,yes,no,none,COVID-19 (mumkin)
+135,mild,dry,mild,no,no,mild,yes,moderate,medium,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+136,mild,dry,mild,no,no,moderate,yes,moderate,short,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+137,mild,dry,mild,yes,no,mild,yes,moderate,medium,normal,mild,normal,no,yes,yes,yes,no,none,COVID-19 (mumkin)
+138,mild,dry,moderate,no,no,mild,yes,severe,medium,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+139,mild,dry,none,no,no,none,no,mild,short,normal,normal,normal,no,yes,no,yes,no,none,COVID-19 (mumkin)
+140,mild,dry,mild,no,no,mild,yes,moderate,medium,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+141,mild,dry,mild,no,no,moderate,yes,moderate,short,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+142,mild,dry,none,no,no,mild,no,moderate,short,normal,normal,normal,no,yes,no,yes,no,none,COVID-19 (mumkin)
+143,mild,dry,moderate,no,no,mild,yes,severe,medium,borderline,mild,mild,no,yes,yes,yes,no,none,COVID-19 (mumkin)
+144,mild,dry,mild,yes,no,mild,yes,moderate,medium,borderline,mild,mild,no,yes,no,yes,no,none,COVID-19 (mumkin)
+145,mild,dry,mild,no,no,moderate,yes,moderate,short,normal,mild,normal,no,yes,no,yes,no,none,COVID-19 (mumkin)
+146,normal,none,severe,no,no,none,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+147,normal,dry,moderate,no,no,none,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+148,normal,none,severe,no,no,mild,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+149,normal,dry,moderate,yes,no,mild,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+150,normal,none,moderate,no,no,none,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+151,normal,none,severe,no,no,none,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+152,normal,dry,moderate,no,no,mild,no,moderate,short,low,mild,mild,yes,no,no,no,no,asthma,Astma xuruji
+153,normal,none,severe,no,no,none,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+154,normal,dry,moderate,no,no,mild,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+155,normal,none,moderate,no,no,none,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+156,normal,none,severe,no,no,mild,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+157,normal,dry,moderate,no,no,none,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+158,normal,none,severe,no,no,none,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+159,normal,dry,moderate,no,no,mild,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+160,normal,none,moderate,no,no,none,no,moderate,short,low,mild,mild,yes,no,no,no,no,asthma,Astma xuruji
+161,normal,none,severe,no,no,mild,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+162,normal,dry,moderate,no,no,none,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+163,normal,none,severe,no,no,none,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+164,normal,dry,moderate,no,no,mild,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+165,normal,none,moderate,no,no,none,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+166,normal,none,severe,no,no,none,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+167,normal,dry,moderate,no,no,mild,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+168,normal,none,moderate,no,no,none,no,moderate,short,low,mild,mild,yes,no,no,no,no,asthma,Astma xuruji
+169,normal,none,severe,no,no,mild,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+170,normal,none,severe,no,no,none,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+171,normal,dry,moderate,no,no,none,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+172,normal,none,severe,no,no,mild,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+173,normal,dry,moderate,no,no,none,no,moderate,short,low,high,mild,yes,no,no,no,no,asthma,Astma xuruji
+174,normal,none,severe,no,no,none,no,moderate,short,low,high,high,yes,no,no,no,no,asthma,Astma xuruji
+175,very_high,bloody,severe,no,no,severe,yes,severe,short,critical,very_high,critical,yes,no,no,no,yes,copd,Shoshilinch yordam kerak
+176,very_high,wet,severe,no,no,moderate,yes,severe,medium,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+177,high,bloody,moderate,no,no,mild,no,severe,short,critical,very_high,high,yes,no,no,no,yes,none,Shoshilinch yordam kerak
+178,mild,dry,severe,no,no,none,no,severe,short,critical,very_high,critical,yes,no,no,no,no,asthma,Shoshilinch yordam kerak
+179,very_high,wet,severe,no,no,moderate,yes,severe,medium,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+180,very_high,bloody,severe,no,no,severe,yes,severe,short,critical,very_high,critical,yes,no,no,no,yes,copd,Shoshilinch yordam kerak
+181,very_high,wet,severe,no,no,moderate,yes,severe,short,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+182,high,bloody,severe,no,no,mild,no,severe,medium,critical,very_high,high,yes,no,no,no,yes,none,Shoshilinch yordam kerak
+183,mild,dry,severe,no,no,none,no,severe,short,critical,very_high,critical,yes,no,no,no,no,asthma,Shoshilinch yordam kerak
+184,very_high,wet,severe,no,no,severe,yes,severe,medium,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+185,very_high,bloody,severe,no,no,moderate,yes,severe,short,critical,very_high,critical,yes,no,no,no,yes,copd,Shoshilinch yordam kerak
+186,very_high,wet,severe,no,no,moderate,yes,severe,short,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+187,high,bloody,moderate,no,no,mild,no,severe,medium,critical,high,high,yes,no,no,no,yes,none,Shoshilinch yordam kerak
+188,mild,dry,severe,no,no,none,no,severe,short,critical,very_high,critical,yes,no,no,no,no,asthma,Shoshilinch yordam kerak
+189,very_high,wet,severe,no,no,severe,yes,severe,short,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+190,very_high,bloody,severe,no,no,moderate,yes,severe,medium,critical,very_high,critical,yes,no,no,no,yes,copd,Shoshilinch yordam kerak
+191,high,wet,severe,no,no,moderate,yes,severe,short,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+192,high,bloody,severe,no,no,mild,no,severe,short,critical,very_high,high,yes,no,no,no,yes,none,Shoshilinch yordam kerak
+193,very_high,wet,severe,no,no,severe,yes,severe,medium,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+194,very_high,bloody,severe,no,no,moderate,yes,severe,short,critical,very_high,critical,yes,no,no,no,no,copd,Shoshilinch yordam kerak
+195,very_high,wet,severe,no,no,moderate,yes,severe,medium,critical,very_high,critical,yes,no,no,no,yes,none,Shoshilinch yordam kerak
+196,high,bloody,moderate,no,no,mild,no,severe,short,critical,very_high,high,yes,no,no,no,yes,none,Shoshilinch yordam kerak
+197,mild,dry,severe,no,no,none,no,severe,short,critical,very_high,critical,yes,no,no,no,no,asthma,Shoshilinch yordam kerak
+198,very_high,wet,severe,no,no,severe,yes,severe,short,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+199,very_high,bloody,severe,no,no,moderate,yes,severe,medium,critical,very_high,critical,yes,no,no,no,yes,copd,Shoshilinch yordam kerak
+200,very_high,wet,severe,no,no,moderate,yes,severe,short,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+201,high,bloody,severe,no,no,mild,no,severe,short,critical,very_high,high,yes,no,no,no,yes,none,Shoshilinch yordam kerak
+202,very_high,wet,severe,no,no,severe,yes,severe,medium,critical,very_high,critical,yes,no,no,no,no,none,Shoshilinch yordam kerak
+203,very_high,bloody,severe,no,no,moderate,yes,severe,medium,critical,very_high,critical,yes,no,no,no,yes,copd,Shoshilinch yordam kerak

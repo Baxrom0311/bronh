@@ -1,0 +1,41 @@
+{
+  "source_path": "data/respiratory_seed_cases.csv",
+  "mapping_path": null,
+  "raw_columns": [
+    "temperature",
+    "cough_type",
+    "dyspnea_level",
+    "sore_throat",
+    "runny_nose",
+    "headache_level",
+    "muscle_pain",
+    "fatigue_level",
+    "duration_days",
+    "oxygen_saturation",
+    "heart_rate",
+    "respiratory_rate",
+    "chest_pain",
+    "loss_of_taste",
+    "diarrhea",
+    "covid_contact",
+    "smoker",
+    "chronic_diseases",
+    "diagnosis_label"
+  ],
+  "total_rows": 203,
+  "rows_with_any_change": 0,
+  "row_change_rate": 0.0,
+  "total_field_changes": 0,
+  "changed_field_counts": {},
+  "defaulted_field_counts": {
+    "chronic_diseases": 154
+  },
+  "boolean_standardizations": {},
+  "enum_standardizations": {},
+  "label_standardizations": 0,
+  "chronic_disease_standardizations": 0,
+  "sample_changes": [],
+  "recommendations": [
+    "Default bilan to'ldirilgan ustunlarni tekshirib, real datasetda bu maydonlarni to'liqroq yig'ishga harakat qiling."
+  ]
+}

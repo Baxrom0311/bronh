@@ -1,0 +1,143 @@
+{
+  "description": "Template for onboarding a real respiratory infection dataset into the CDSS pipeline.",
+  "notes": [
+    "Fill source_column with the column name from the external dataset.",
+    "Keep canonical_field unchanged because backend normalization depends on it.",
+    "Required fields should be mapped first. Optional fields can remain null if the dataset does not provide them."
+  ],
+  "fields": [
+    {
+      "canonical_field": "temperature",
+      "required": true,
+      "source_column": null,
+      "accepted_aliases": ["temperature", "temp", "body_temperature", "fever_temp"],
+      "example_value": "38.4"
+    },
+    {
+      "canonical_field": "cough_type",
+      "required": true,
+      "source_column": null,
+      "accepted_aliases": ["cough_type", "cough", "cough_kind"],
+      "example_value": "dry"
+    },
+    {
+      "canonical_field": "dyspnea_level",
+      "required": true,
+      "source_column": null,
+      "accepted_aliases": ["dyspnea_level", "breath_shortness", "shortness_of_breath"],
+      "example_value": "mild"
+    },
+    {
+      "canonical_field": "sore_throat",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["sore_throat", "throat_pain"],
+      "example_value": "1"
+    },
+    {
+      "canonical_field": "runny_nose",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["runny_nose", "nasal_discharge", "cold"],
+      "example_value": "0"
+    },
+    {
+      "canonical_field": "headache_level",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["headache_level", "headache"],
+      "example_value": "moderate"
+    },
+    {
+      "canonical_field": "muscle_pain",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["muscle_pain", "myalgia", "body_ache"],
+      "example_value": "0"
+    },
+    {
+      "canonical_field": "fatigue_level",
+      "required": true,
+      "source_column": null,
+      "accepted_aliases": ["fatigue_level", "fatigue", "tiredness"],
+      "example_value": "6"
+    },
+    {
+      "canonical_field": "duration_days",
+      "required": true,
+      "source_column": null,
+      "accepted_aliases": ["duration_days", "days", "symptom_days"],
+      "example_value": "4"
+    },
+    {
+      "canonical_field": "oxygen_saturation",
+      "required": true,
+      "source_column": null,
+      "accepted_aliases": ["oxygen_saturation", "spo2", "oxygen"],
+      "example_value": "95"
+    },
+    {
+      "canonical_field": "heart_rate",
+      "required": true,
+      "source_column": null,
+      "accepted_aliases": ["heart_rate", "pulse", "hr"],
+      "example_value": "102"
+    },
+    {
+      "canonical_field": "respiratory_rate",
+      "required": true,
+      "source_column": null,
+      "accepted_aliases": ["respiratory_rate", "rr", "breaths_per_minute"],
+      "example_value": "24"
+    },
+    {
+      "canonical_field": "chest_pain",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["chest_pain", "chest_discomfort"],
+      "example_value": "0"
+    },
+    {
+      "canonical_field": "loss_of_taste",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["loss_of_taste", "taste_loss", "anosmia"],
+      "example_value": "0"
+    },
+    {
+      "canonical_field": "diarrhea",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["diarrhea", "diarrhoea"],
+      "example_value": "0"
+    },
+    {
+      "canonical_field": "covid_contact",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["covid_contact", "covid_exposure", "contact"],
+      "example_value": "0"
+    },
+    {
+      "canonical_field": "smoker",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["smoker", "smoking", "is_smoker"],
+      "example_value": "0"
+    },
+    {
+      "canonical_field": "chronic_diseases",
+      "required": false,
+      "source_column": null,
+      "accepted_aliases": ["chronic_diseases", "comorbidities", "history"],
+      "example_value": "astma"
+    },
+    {
+      "canonical_field": "diagnosis_label",
+      "required": true,
+      "source_column": null,
+      "accepted_aliases": ["diagnosis_label", "label", "diagnosis", "target"],
+      "example_value": "Gripp"
+    }
+  ]
+}

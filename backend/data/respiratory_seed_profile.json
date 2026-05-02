@@ -1,0 +1,194 @@
+{
+  "dataset_path": "data/respiratory_seed_cases.csv",
+  "total_rows": 203,
+  "total_labels": 7,
+  "label_distribution": {
+    "ARVI / oddiy shamollash": 29,
+    "Astma xuruji": 29,
+    "Bronxit": 29,
+    "COVID-19 (mumkin)": 29,
+    "Gripp": 29,
+    "Shoshilinch yordam kerak": 29,
+    "Zotiljam (pnevmoniya)": 29
+  },
+  "missing_counts": {
+    "temperature": 0,
+    "cough_type": 0,
+    "dyspnea_level": 0,
+    "sore_throat": 0,
+    "runny_nose": 0,
+    "headache_level": 0,
+    "muscle_pain": 0,
+    "fatigue_level": 0,
+    "duration_days": 0,
+    "oxygen_saturation": 0,
+    "heart_rate": 0,
+    "respiratory_rate": 0,
+    "chest_pain": 0,
+    "loss_of_taste": 0,
+    "diarrhea": 0,
+    "covid_contact": 0,
+    "smoker": 0,
+    "chronic_diseases": 154,
+    "diagnosis_label": 0
+  },
+  "numeric_summary": {
+    "temperature": {
+      "count": 203,
+      "min": 36.6,
+      "max": 40.2,
+      "mean": 38.158
+    },
+    "fatigue_level": {
+      "count": 203,
+      "min": 1.0,
+      "max": 10.0,
+      "mean": 6.424
+    },
+    "duration_days": {
+      "count": 203,
+      "min": 1.0,
+      "max": 9.0,
+      "mean": 4.089
+    },
+    "oxygen_saturation": {
+      "count": 203,
+      "min": 83.0,
+      "max": 99.0,
+      "mean": 93.419
+    },
+    "heart_rate": {
+      "count": 203,
+      "min": 74.0,
+      "max": 146.0,
+      "mean": 107.67
+    },
+    "respiratory_rate": {
+      "count": 203,
+      "min": 15.0,
+      "max": 39.0,
+      "mean": 25.365
+    }
+  },
+  "categorical_summary": {
+    "cough_type": {
+      "bloody": 13,
+      "dry": 84,
+      "none": 36,
+      "wet": 70
+    },
+    "dyspnea_level": {
+      "mild": 53,
+      "moderate": 52,
+      "none": 49,
+      "severe": 49
+    },
+    "headache_level": {
+      "mild": 81,
+      "moderate": 55,
+      "none": 53,
+      "severe": 14
+    },
+    "diagnosis_label": {
+      "ARVI / oddiy shamollash": 29,
+      "Astma xuruji": 29,
+      "Bronxit": 29,
+      "COVID-19 (mumkin)": 29,
+      "Gripp": 29,
+      "Shoshilinch yordam kerak": 29,
+      "Zotiljam (pnevmoniya)": 29
+    }
+  },
+  "feature_distribution": {
+    "temperature_bin": {
+      "high": 63,
+      "mild": 66,
+      "normal": 56,
+      "very_high": 18
+    },
+    "cough_type": {
+      "bloody": 13,
+      "dry": 84,
+      "none": 36,
+      "wet": 70
+    },
+    "dyspnea_level": {
+      "mild": 53,
+      "moderate": 52,
+      "none": 49,
+      "severe": 49
+    },
+    "sore_throat": {
+      "no": 149,
+      "yes": 54
+    },
+    "runny_nose": {
+      "no": 174,
+      "yes": 29
+    },
+    "headache_level": {
+      "mild": 81,
+      "moderate": 55,
+      "none": 53,
+      "severe": 14
+    },
+    "muscle_pain": {
+      "no": 110,
+      "yes": 93
+    },
+    "fatigue_bin": {
+      "mild": 35,
+      "moderate": 88,
+      "none": 5,
+      "severe": 75
+    },
+    "duration_bin": {
+      "long": 12,
+      "medium": 75,
+      "short": 116
+    },
+    "oxygen_bin": {
+      "borderline": 69,
+      "critical": 29,
+      "low": 58,
+      "normal": 47
+    },
+    "heart_rate_bin": {
+      "high": 66,
+      "mild": 76,
+      "normal": 33,
+      "very_high": 28
+    },
+    "respiratory_rate_bin": {
+      "critical": 23,
+      "high": 37,
+      "mild": 96,
+      "normal": 47
+    },
+    "chest_pain": {
+      "no": 116,
+      "yes": 87
+    },
+    "loss_of_taste": {
+      "no": 174,
+      "yes": 29
+    },
+    "diarrhea": {
+      "no": 196,
+      "yes": 7
+    },
+    "covid_contact": {
+      "no": 174,
+      "yes": 29
+    },
+    "smoker": {
+      "no": 161,
+      "yes": 42
+    },
+    "chronic_bucket": {
+      "asthma": 33,
+      "copd": 16,
+      "none": 154
+    }
+  }
+}

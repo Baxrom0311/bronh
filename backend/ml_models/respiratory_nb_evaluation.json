@@ -1,0 +1,71 @@
+{
+  "folds": 5,
+  "samples": 203,
+  "mean_accuracy": 0.995,
+  "overall_accuracy": 0.995,
+  "fold_results": [
+    {
+      "fold": 1,
+      "train_samples": 163,
+      "test_samples": 40,
+      "accuracy": 1.0
+    },
+    {
+      "fold": 2,
+      "train_samples": 162,
+      "test_samples": 41,
+      "accuracy": 0.976
+    },
+    {
+      "fold": 3,
+      "train_samples": 162,
+      "test_samples": 41,
+      "accuracy": 1.0
+    },
+    {
+      "fold": 4,
+      "train_samples": 162,
+      "test_samples": 41,
+      "accuracy": 1.0
+    },
+    {
+      "fold": 5,
+      "train_samples": 163,
+      "test_samples": 40,
+      "accuracy": 1.0
+    }
+  ],
+  "per_label_accuracy": {
+    "ARVI / oddiy shamollash": 1.0,
+    "Astma xuruji": 1.0,
+    "Bronxit": 1.0,
+    "COVID-19 (mumkin)": 1.0,
+    "Gripp": 1.0,
+    "Shoshilinch yordam kerak": 0.966,
+    "Zotiljam (pnevmoniya)": 1.0
+  },
+  "confusion_matrix": {
+    "ARVI / oddiy shamollash": {
+      "ARVI / oddiy shamollash": 29
+    },
+    "Astma xuruji": {
+      "Astma xuruji": 29
+    },
+    "Bronxit": {
+      "Bronxit": 29
+    },
+    "COVID-19 (mumkin)": {
+      "COVID-19 (mumkin)": 29
+    },
+    "Gripp": {
+      "Gripp": 29
+    },
+    "Shoshilinch yordam kerak": {
+      "Shoshilinch yordam kerak": 28,
+      "Zotiljam (pnevmoniya)": 1
+    },
+    "Zotiljam (pnevmoniya)": {
+      "Zotiljam (pnevmoniya)": 29
+    }
+  }
+}

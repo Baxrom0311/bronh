@@ -1,0 +1,245 @@
+{
+  "dataset_path": "data/respiratory_seed_cases.csv",
+  "mapping_path": "/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/real_dataset_mapping_template.json",
+  "total_dataset_columns": 19,
+  "dataset_columns": [
+    "temperature",
+    "cough_type",
+    "dyspnea_level",
+    "sore_throat",
+    "runny_nose",
+    "headache_level",
+    "muscle_pain",
+    "fatigue_level",
+    "duration_days",
+    "oxygen_saturation",
+    "heart_rate",
+    "respiratory_rate",
+    "chest_pain",
+    "loss_of_taste",
+    "diarrhea",
+    "covid_contact",
+    "smoker",
+    "chronic_diseases",
+    "diagnosis_label"
+  ],
+  "explicit_mappings": 0,
+  "alias_mappings": 19,
+  "mapped_fields": [
+    {
+      "canonical_field": "temperature",
+      "required": true,
+      "source_column": "temperature",
+      "status": "alias",
+      "accepted_aliases": [
+        "temperature",
+        "temp",
+        "body_temperature",
+        "fever_temp"
+      ]
+    },
+    {
+      "canonical_field": "cough_type",
+      "required": true,
+      "source_column": "cough_type",
+      "status": "alias",
+      "accepted_aliases": [
+        "cough_type",
+        "cough",
+        "cough_kind"
+      ]
+    },
+    {
+      "canonical_field": "dyspnea_level",
+      "required": true,
+      "source_column": "dyspnea_level",
+      "status": "alias",
+      "accepted_aliases": [
+        "dyspnea_level",
+        "breath_shortness",
+        "shortness_of_breath"
+      ]
+    },
+    {
+      "canonical_field": "sore_throat",
+      "required": false,
+      "source_column": "sore_throat",
+      "status": "alias",
+      "accepted_aliases": [
+        "sore_throat",
+        "throat_pain"
+      ]
+    },
+    {
+      "canonical_field": "runny_nose",
+      "required": false,
+      "source_column": "runny_nose",
+      "status": "alias",
+      "accepted_aliases": [
+        "runny_nose",
+        "nasal_discharge",
+        "cold"
+      ]
+    },
+    {
+      "canonical_field": "headache_level",
+      "required": false,
+      "source_column": "headache_level",
+      "status": "alias",
+      "accepted_aliases": [
+        "headache_level",
+        "headache"
+      ]
+    },
+    {
+      "canonical_field": "muscle_pain",
+      "required": false,
+      "source_column": "muscle_pain",
+      "status": "alias",
+      "accepted_aliases": [
+        "muscle_pain",
+        "myalgia",
+        "body_ache"
+      ]
+    },
+    {
+      "canonical_field": "fatigue_level",
+      "required": true,
+      "source_column": "fatigue_level",
+      "status": "alias",
+      "accepted_aliases": [
+        "fatigue_level",
+        "fatigue",
+        "tiredness"
+      ]
+    },
+    {
+      "canonical_field": "duration_days",
+      "required": true,
+      "source_column": "duration_days",
+      "status": "alias",
+      "accepted_aliases": [
+        "duration_days",
+        "days",
+        "symptom_days"
+      ]
+    },
+    {
+      "canonical_field": "oxygen_saturation",
+      "required": true,
+      "source_column": "oxygen_saturation",
+      "status": "alias",
+      "accepted_aliases": [
+        "oxygen_saturation",
+        "spo2",
+        "oxygen"
+      ]
+    },
+    {
+      "canonical_field": "heart_rate",
+      "required": true,
+      "source_column": "heart_rate",
+      "status": "alias",
+      "accepted_aliases": [
+        "heart_rate",
+        "pulse",
+        "hr"
+      ]
+    },
+    {
+      "canonical_field": "respiratory_rate",
+      "required": true,
+      "source_column": "respiratory_rate",
+      "status": "alias",
+      "accepted_aliases": [
+        "respiratory_rate",
+        "rr",
+        "breaths_per_minute"
+      ]
+    },
+    {
+      "canonical_field": "chest_pain",
+      "required": false,
+      "source_column": "chest_pain",
+      "status": "alias",
+      "accepted_aliases": [
+        "chest_pain",
+        "chest_discomfort"
+      ]
+    },
+    {
+      "canonical_field": "loss_of_taste",
+      "required": false,
+      "source_column": "loss_of_taste",
+      "status": "alias",
+      "accepted_aliases": [
+        "loss_of_taste",
+        "taste_loss",
+        "anosmia"
+      ]
+    },
+    {
+      "canonical_field": "diarrhea",
+      "required": false,
+      "source_column": "diarrhea",
+      "status": "alias",
+      "accepted_aliases": [
+        "diarrhea",
+        "diarrhoea"
+      ]
+    },
+    {
+      "canonical_field": "covid_contact",
+      "required": false,
+      "source_column": "covid_contact",
+      "status": "alias",
+      "accepted_aliases": [
+        "covid_contact",
+        "covid_exposure",
+        "contact"
+      ]
+    },
+    {
+      "canonical_field": "smoker",
+      "required": false,
+      "source_column": "smoker",
+      "status": "alias",
+      "accepted_aliases": [
+        "smoker",
+        "smoking",
+        "is_smoker"
+      ]
+    },
+    {
+      "canonical_field": "chronic_diseases",
+      "required": false,
+      "source_column": "chronic_diseases",
+      "status": "alias",
+      "accepted_aliases": [
+        "chronic_diseases",
+        "comorbidities",
+        "history"
+      ]
+    },
+    {
+      "canonical_field": "diagnosis_label",
+      "required": true,
+      "source_column": "diagnosis_label",
+      "status": "alias",
+      "accepted_aliases": [
+        "diagnosis_label",
+        "label",
+        "diagnosis",
+        "target"
+      ]
+    }
+  ],
+  "invalid_explicit_fields": [],
+  "missing_required_fields": [],
+  "missing_optional_fields": [],
+  "unused_dataset_columns": [],
+  "ready_for_pipeline": true,
+  "recommendations": [
+    "Dataset mapping bazaviy onboarding tekshiruvlaridan o'tdi."
+  ]
+}

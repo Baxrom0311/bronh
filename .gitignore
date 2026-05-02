@@ -1,0 +1,52 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+tmp/
+
+# Python
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.hypothesis/
+**/.coverage
+**/htmlcov/
+**/.ipynb_checkpoints/
+**/.venv/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Node / frontend
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.cache/
+**/.parcel-cache/
+**/.eslintcache
+**/.prettiercache
+**/*.tsbuildinfo
+

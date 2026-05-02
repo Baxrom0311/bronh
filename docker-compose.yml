@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: respiratory-cdss-postgres
+    environment:
+      POSTGRES_DB: cdss
+      POSTGRES_USER: cdss
+      POSTGRES_PASSWORD: cdss
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cdss -d cdss"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    container_name: respiratory-cdss-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env.example
+    environment:
+      CDSS_DATABASE_URL: postgresql+psycopg://cdss:cdss@postgres:5432/cdss
+      CDSS_AUTO_CREATE_TABLES: "false"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: sh -c "alembic upgrade head && uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+
+  frontend:
+    build: ./frontend
+    container_name: respiratory-cdss-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

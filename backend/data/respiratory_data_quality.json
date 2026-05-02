@@ -1,0 +1,66 @@
+{
+  "dataset_path": "data/respiratory_canonical_dataset.csv",
+  "total_rows": 203,
+  "duplicate_rows": 5,
+  "duplicate_rate": 0.025,
+  "missing_counts": {
+    "temperature": 0,
+    "cough_type": 0,
+    "dyspnea_level": 0,
+    "sore_throat": 0,
+    "runny_nose": 0,
+    "headache_level": 0,
+    "muscle_pain": 0,
+    "fatigue_level": 0,
+    "duration_days": 0,
+    "oxygen_saturation": 0,
+    "heart_rate": 0,
+    "respiratory_rate": 0,
+    "chest_pain": 0,
+    "loss_of_taste": 0,
+    "diarrhea": 0,
+    "covid_contact": 0,
+    "smoker": 0,
+    "chronic_diseases": 154,
+    "diagnosis_label": 0
+  },
+  "out_of_range_counts": {
+    "temperature": 0,
+    "fatigue_level": 0,
+    "duration_days": 0,
+    "oxygen_saturation": 0,
+    "heart_rate": 0,
+    "respiratory_rate": 0
+  },
+  "invalid_categorical_counts": {
+    "cough_type": 0,
+    "dyspnea_level": 0,
+    "headache_level": 0,
+    "sore_throat": 0,
+    "runny_nose": 0,
+    "muscle_pain": 0,
+    "chest_pain": 0,
+    "loss_of_taste": 0,
+    "diarrhea": 0,
+    "covid_contact": 0,
+    "smoker": 0
+  },
+  "label_distribution": {
+    "ARVI / oddiy shamollash": 29,
+    "Astma xuruji": 29,
+    "Bronxit": 29,
+    "COVID-19 (mumkin)": 29,
+    "Gripp": 29,
+    "Shoshilinch yordam kerak": 29,
+    "Zotiljam (pnevmoniya)": 29
+  },
+  "class_balance_ratio": 1.0,
+  "warnings": [
+    "5 ta takrorlangan qator aniqlandi.",
+    "Missing qiymatlar bor: chronic_diseases."
+  ],
+  "recommendations": [
+    "Deduplication bosqichini cleaning pipeline ga qo'shing.",
+    "Missing qiymatlar uchun imputatsiya yoki exclusion qoidalarini yozing."
+  ]
+}

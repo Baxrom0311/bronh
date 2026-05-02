@@ -1,0 +1,204 @@
+temperature,cough_type,dyspnea_level,sore_throat,runny_nose,headache_level,muscle_pain,fatigue_level,duration_days,oxygen_saturation,heart_rate,respiratory_rate,chest_pain,loss_of_taste,diarrhea,covid_contact,smoker,chronic_diseases,diagnosis_label
+36.9,none,none,1,1,mild,0,2,2,98,82,17,0,0,0,0,0,,ARVI / oddiy shamollash
+37.2,dry,none,1,1,none,0,3,3,98,84,18,0,0,0,0,0,,ARVI / oddiy shamollash
+37.1,none,none,1,1,mild,0,2,1,99,80,16,0,0,0,0,0,,ARVI / oddiy shamollash
+37.4,dry,mild,1,1,mild,0,3,4,97,88,18,0,0,0,0,0,,ARVI / oddiy shamollash
+36.8,none,none,0,1,none,0,1,2,99,78,16,0,0,0,0,0,,ARVI / oddiy shamollash
+37.0,none,none,1,1,none,0,2,3,98,76,17,0,0,0,0,0,,ARVI / oddiy shamollash
+36.7,dry,none,1,1,mild,0,3,2,99,81,16,0,0,0,0,0,,ARVI / oddiy shamollash
+37.3,none,none,1,1,mild,0,2,4,97,86,17,0,0,0,0,0,,ARVI / oddiy shamollash
+37.5,dry,none,1,1,none,0,4,3,98,83,18,0,0,0,0,0,,ARVI / oddiy shamollash
+36.6,none,none,0,1,none,0,1,1,99,74,15,0,0,0,0,0,,ARVI / oddiy shamollash
+37.1,dry,none,1,1,mild,0,3,5,97,87,18,0,0,0,0,0,,ARVI / oddiy shamollash
+36.9,none,none,1,1,none,0,2,2,98,79,16,0,0,0,0,0,,ARVI / oddiy shamollash
+37.2,none,none,0,1,mild,0,3,3,98,85,17,0,0,0,0,0,,ARVI / oddiy shamollash
+37.0,dry,none,1,1,none,0,2,2,99,77,16,0,0,0,0,0,,ARVI / oddiy shamollash
+37.4,none,none,1,1,mild,0,4,4,97,89,18,0,0,0,0,0,,ARVI / oddiy shamollash
+36.8,none,none,1,1,none,0,1,1,99,75,15,0,0,0,0,0,,ARVI / oddiy shamollash
+37.3,dry,none,1,1,mild,0,3,3,98,82,17,0,0,0,0,0,,ARVI / oddiy shamollash
+37.1,none,none,0,1,none,0,2,2,98,80,16,0,0,0,0,0,,ARVI / oddiy shamollash
+36.7,none,none,1,1,mild,0,2,3,99,78,16,0,0,0,0,0,,ARVI / oddiy shamollash
+37.5,dry,mild,1,1,mild,0,4,5,97,90,19,0,0,0,0,0,,ARVI / oddiy shamollash
+37.0,none,none,1,1,none,0,1,2,98,76,16,0,0,0,0,0,,ARVI / oddiy shamollash
+37.2,dry,none,1,1,mild,0,3,4,98,84,17,0,0,0,0,0,,ARVI / oddiy shamollash
+36.9,none,none,0,1,none,0,2,1,99,79,16,0,0,0,0,0,,ARVI / oddiy shamollash
+37.3,none,none,1,1,mild,0,3,3,97,87,18,0,0,0,0,0,,ARVI / oddiy shamollash
+37.1,dry,none,1,1,none,0,2,2,98,81,17,0,0,0,0,0,,ARVI / oddiy shamollash
+36.8,none,none,1,1,mild,0,2,4,99,77,16,0,0,0,0,0,,ARVI / oddiy shamollash
+37.4,dry,none,1,1,mild,0,4,3,97,88,18,0,0,0,0,0,,ARVI / oddiy shamollash
+37.0,none,none,0,1,none,0,1,2,98,75,15,0,0,0,0,0,,ARVI / oddiy shamollash
+37.2,none,none,1,1,none,0,3,3,98,83,17,0,0,0,0,0,,ARVI / oddiy shamollash
+38.7,dry,mild,1,0,moderate,1,8,3,96,104,22,0,0,0,0,0,,Gripp
+39.1,dry,none,1,0,severe,1,9,2,97,112,20,0,0,0,0,0,,Gripp
+38.5,dry,mild,0,0,moderate,1,7,4,95,110,22,0,0,0,0,0,,Gripp
+39.0,dry,none,1,0,moderate,1,8,3,96,108,21,0,0,0,0,0,,Gripp
+38.6,dry,mild,1,0,mild,1,7,3,96,106,21,0,0,0,0,0,,Gripp
+38.9,dry,none,0,0,severe,1,9,2,96,114,22,0,0,0,0,0,,Gripp
+39.2,dry,mild,1,0,moderate,1,8,4,95,116,23,0,0,0,0,0,,Gripp
+38.4,dry,none,1,0,moderate,1,7,3,97,102,20,0,0,0,0,0,,Gripp
+39.3,dry,none,0,0,severe,1,9,2,95,118,22,0,0,0,0,0,,Gripp
+38.8,dry,mild,1,0,moderate,1,8,5,96,108,21,0,0,0,0,0,,Gripp
+38.5,dry,none,1,0,mild,1,7,3,97,104,21,0,0,0,0,0,,Gripp
+39.0,dry,mild,0,0,moderate,1,8,3,96,110,22,0,0,0,0,0,,Gripp
+38.7,dry,none,1,0,severe,1,9,2,96,112,21,0,0,0,0,0,,Gripp
+39.1,dry,mild,1,0,moderate,1,8,4,95,114,23,0,0,0,0,0,,Gripp
+38.6,dry,none,0,0,moderate,1,7,3,97,106,20,0,0,0,0,0,,Gripp
+38.3,dry,mild,1,0,mild,1,7,3,97,100,20,0,0,0,0,0,,Gripp
+39.2,dry,none,1,0,severe,1,9,2,95,116,22,0,0,0,0,0,,Gripp
+38.9,dry,mild,1,0,moderate,1,8,4,96,110,22,0,0,0,0,0,,Gripp
+38.4,dry,none,1,0,moderate,1,7,3,96,102,21,0,0,0,0,0,,Gripp
+39.0,dry,mild,0,0,moderate,1,8,3,96,108,21,0,0,0,0,0,,Gripp
+38.7,dry,none,1,0,mild,1,7,4,97,104,20,0,0,0,0,0,,Gripp
+38.5,dry,mild,1,0,moderate,1,8,3,96,106,22,0,0,0,0,0,,Gripp
+39.1,dry,none,1,0,severe,1,9,2,95,114,22,0,0,0,0,0,,Gripp
+38.6,dry,mild,0,0,moderate,1,7,3,96,108,21,0,0,0,0,0,,Gripp
+38.8,dry,none,1,0,moderate,1,8,3,96,110,21,0,0,0,0,0,,Gripp
+38.3,dry,mild,1,0,mild,1,7,4,97,100,20,0,0,0,0,0,,Gripp
+39.0,dry,none,1,0,moderate,1,9,2,95,112,22,0,0,0,0,0,,Gripp
+38.5,dry,mild,0,0,moderate,1,8,3,96,104,21,0,0,0,0,0,,Gripp
+38.9,dry,none,1,0,severe,1,8,3,96,108,22,0,0,0,0,0,,Gripp
+37.8,wet,mild,0,0,mild,0,5,6,95,96,22,0,0,0,0,1,koah,Bronxit
+38.1,wet,mild,0,0,none,0,4,7,95,98,23,0,0,0,0,1,,Bronxit
+37.6,wet,moderate,0,0,mild,0,5,5,94,100,24,0,0,0,0,1,koah,Bronxit
+38.2,wet,mild,1,0,mild,0,6,8,95,102,24,0,0,0,0,1,,Bronxit
+37.9,wet,mild,0,0,none,0,5,6,96,99,22,0,0,0,0,1,,Bronxit
+37.7,wet,mild,0,0,mild,0,4,7,95,94,22,0,0,0,0,0,,Bronxit
+38.0,wet,moderate,0,0,none,0,5,6,94,98,23,0,0,0,0,1,koah,Bronxit
+37.5,wet,mild,0,0,mild,0,4,5,96,92,21,0,0,0,0,1,,Bronxit
+38.3,wet,mild,1,0,none,0,6,9,94,104,25,0,0,0,0,1,koah,Bronxit
+37.8,wet,moderate,0,0,mild,0,5,7,95,96,23,0,0,0,0,0,,Bronxit
+38.1,wet,mild,0,0,none,0,5,6,95,100,22,0,0,0,0,1,,Bronxit
+37.6,wet,mild,0,0,mild,0,4,8,96,94,22,0,0,0,0,1,koah,Bronxit
+38.0,wet,moderate,0,0,mild,0,6,7,94,102,24,0,0,0,0,1,,Bronxit
+37.9,wet,mild,0,0,none,0,5,6,95,98,22,0,0,0,0,0,,Bronxit
+37.7,wet,mild,0,0,mild,0,4,5,96,93,21,0,0,0,0,1,,Bronxit
+38.2,wet,moderate,0,0,none,0,5,8,94,100,24,0,0,0,0,1,koah,Bronxit
+37.5,wet,mild,0,0,mild,0,4,6,96,90,21,0,0,0,0,1,,Bronxit
+38.4,wet,mild,1,0,mild,0,6,9,94,106,25,0,0,0,0,1,koah,Bronxit
+37.8,wet,moderate,0,0,none,0,5,7,95,97,23,0,0,0,0,0,,Bronxit
+38.0,wet,mild,0,0,mild,0,5,6,95,99,22,0,0,0,0,1,,Bronxit
+37.6,wet,mild,0,0,none,0,4,5,96,92,21,0,0,0,0,1,,Bronxit
+38.1,wet,moderate,0,0,mild,0,5,7,94,101,24,0,0,0,0,1,koah,Bronxit
+37.9,wet,mild,0,0,none,0,5,6,95,96,22,0,0,0,0,0,,Bronxit
+37.7,wet,mild,0,0,mild,0,4,8,96,94,22,0,0,0,0,1,,Bronxit
+38.3,wet,mild,1,0,none,0,6,7,94,104,24,0,0,0,0,1,,Bronxit
+37.5,wet,mild,0,0,mild,0,4,5,96,91,21,0,0,0,0,1,koah,Bronxit
+38.0,wet,moderate,0,0,none,0,5,6,95,98,23,0,0,0,0,1,,Bronxit
+37.8,wet,mild,0,0,mild,0,5,7,95,96,22,0,0,0,0,0,,Bronxit
+38.2,wet,mild,0,0,none,0,5,8,94,102,24,0,0,0,0,1,,Bronxit
+39.2,wet,moderate,0,0,moderate,1,8,6,92,116,30,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.0,wet,severe,0,0,moderate,1,9,7,91,122,32,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.9,wet,moderate,0,0,mild,1,8,5,93,114,28,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.0,wet,moderate,0,0,moderate,0,7,8,92,118,31,1,0,0,0,1,,Zotiljam (pnevmoniya)
+38.8,wet,moderate,0,0,mild,1,7,6,93,112,29,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.3,wet,severe,0,0,moderate,1,9,7,90,124,33,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.7,wet,moderate,0,0,mild,1,8,5,93,110,28,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.1,wet,moderate,0,0,moderate,1,8,6,91,120,31,1,0,0,0,1,,Zotiljam (pnevmoniya)
+38.9,wet,severe,0,0,moderate,0,9,8,91,122,32,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.6,wet,moderate,0,0,mild,1,7,5,93,108,27,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.4,wet,severe,0,0,moderate,1,9,7,90,126,34,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.0,wet,moderate,0,0,moderate,1,8,6,92,116,30,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.8,wet,moderate,0,0,mild,1,8,5,93,112,28,1,0,0,0,1,,Zotiljam (pnevmoniya)
+39.2,wet,severe,0,0,moderate,0,9,8,91,124,33,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.7,wet,moderate,0,0,mild,1,7,6,93,110,29,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.1,wet,moderate,0,0,moderate,1,8,7,91,120,31,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.9,wet,severe,0,0,moderate,1,9,6,92,118,32,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.6,wet,moderate,0,0,mild,0,7,5,93,108,27,1,0,0,0,1,,Zotiljam (pnevmoniya)
+39.3,wet,severe,0,0,moderate,1,9,8,90,126,34,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.0,wet,moderate,0,0,moderate,1,8,6,92,114,30,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.8,wet,moderate,0,0,mild,1,7,5,93,112,28,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.1,wet,severe,0,0,moderate,1,9,7,91,122,32,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.7,wet,moderate,0,0,moderate,0,8,6,92,110,29,1,0,0,0,1,,Zotiljam (pnevmoniya)
+39.0,wet,moderate,0,0,mild,1,8,5,93,116,30,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.9,wet,severe,0,0,moderate,1,9,8,91,120,32,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.6,wet,moderate,0,0,mild,1,7,6,93,108,28,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.2,wet,severe,0,0,moderate,0,9,7,90,124,33,1,0,0,0,0,,Zotiljam (pnevmoniya)
+38.8,wet,moderate,0,0,moderate,1,8,5,92,114,29,1,0,0,0,0,,Zotiljam (pnevmoniya)
+39.0,wet,moderate,0,0,mild,1,8,6,93,118,31,1,0,0,0,1,,Zotiljam (pnevmoniya)
+38.3,dry,mild,0,0,mild,1,7,4,96,98,21,0,1,0,1,0,,COVID-19 (mumkin)
+37.9,dry,mild,0,0,moderate,1,6,5,97,94,20,0,1,1,1,0,,COVID-19 (mumkin)
+38.5,dry,moderate,1,0,mild,1,8,6,94,102,24,0,1,0,1,0,,COVID-19 (mumkin)
+37.8,dry,none,0,0,none,0,5,3,98,88,18,0,1,0,1,0,,COVID-19 (mumkin)
+38.1,dry,mild,0,0,mild,1,6,4,96,96,21,0,1,0,1,0,,COVID-19 (mumkin)
+38.0,dry,mild,0,0,moderate,1,7,5,96,100,22,0,1,1,1,0,,COVID-19 (mumkin)
+37.7,dry,none,0,0,mild,0,5,3,97,90,19,0,1,0,1,0,,COVID-19 (mumkin)
+38.4,dry,moderate,0,0,mild,1,8,6,94,104,24,0,1,0,1,0,,COVID-19 (mumkin)
+38.2,dry,mild,1,0,moderate,1,7,5,95,98,22,0,1,1,1,0,,COVID-19 (mumkin)
+37.6,dry,none,0,0,none,0,4,3,98,86,18,0,1,0,1,0,,COVID-19 (mumkin)
+38.1,dry,mild,0,0,mild,1,6,4,96,94,20,0,1,0,1,0,,COVID-19 (mumkin)
+38.3,dry,moderate,0,0,moderate,1,7,6,95,100,23,0,1,0,1,0,,COVID-19 (mumkin)
+37.9,dry,mild,0,0,mild,1,6,5,97,92,20,0,1,1,1,0,,COVID-19 (mumkin)
+38.5,dry,mild,1,0,mild,1,8,6,94,104,24,0,1,0,1,0,,COVID-19 (mumkin)
+37.8,dry,none,0,0,none,0,5,3,98,88,18,0,1,0,1,0,,COVID-19 (mumkin)
+38.0,dry,mild,0,0,mild,1,6,4,96,96,21,0,1,0,1,0,,COVID-19 (mumkin)
+38.2,dry,moderate,0,0,moderate,1,7,5,95,98,22,0,1,1,1,0,,COVID-19 (mumkin)
+37.7,dry,none,0,0,mild,0,5,3,97,90,19,0,1,0,1,0,,COVID-19 (mumkin)
+38.4,dry,mild,0,0,mild,1,7,6,94,102,23,0,1,0,1,0,,COVID-19 (mumkin)
+38.1,dry,mild,0,0,moderate,1,6,4,96,94,21,0,1,0,1,0,,COVID-19 (mumkin)
+37.9,dry,mild,1,0,mild,1,6,5,97,92,20,0,1,1,1,0,,COVID-19 (mumkin)
+38.3,dry,moderate,0,0,mild,1,8,6,95,100,23,0,1,0,1,0,,COVID-19 (mumkin)
+37.6,dry,none,0,0,none,0,4,3,98,86,18,0,1,0,1,0,,COVID-19 (mumkin)
+38.0,dry,mild,0,0,mild,1,7,5,96,96,21,0,1,0,1,0,,COVID-19 (mumkin)
+38.2,dry,mild,0,0,moderate,1,6,4,96,98,22,0,1,0,1,0,,COVID-19 (mumkin)
+37.8,dry,none,0,0,mild,0,5,3,97,88,19,0,1,0,1,0,,COVID-19 (mumkin)
+38.4,dry,moderate,0,0,mild,1,8,6,94,102,24,0,1,1,1,0,,COVID-19 (mumkin)
+38.1,dry,mild,1,0,mild,1,7,5,96,96,21,0,1,0,1,0,,COVID-19 (mumkin)
+37.9,dry,mild,0,0,moderate,1,6,4,97,92,20,0,1,0,1,0,,COVID-19 (mumkin)
+37.0,none,severe,0,0,none,0,6,1,91,118,30,1,0,0,0,0,astma,Astma xuruji
+36.8,dry,moderate,0,0,none,0,5,2,92,110,28,1,0,0,0,0,astma,Astma xuruji
+37.2,none,severe,0,0,mild,0,7,1,90,124,31,1,0,0,0,0,astma,Astma xuruji
+36.9,dry,moderate,1,0,mild,0,6,2,93,115,29,1,0,0,0,0,asthma,Astma xuruji
+37.1,none,moderate,0,0,none,0,5,1,92,112,28,1,0,0,0,0,astma,Astma xuruji
+37.3,none,severe,0,0,none,0,7,1,90,126,32,1,0,0,0,0,astma,Astma xuruji
+36.7,dry,moderate,0,0,mild,0,5,2,93,108,27,1,0,0,0,0,astma,Astma xuruji
+37.0,none,severe,0,0,none,0,6,1,91,120,30,1,0,0,0,0,astma,Astma xuruji
+37.2,dry,moderate,0,0,mild,0,6,2,92,116,29,1,0,0,0,0,asthma,Astma xuruji
+36.9,none,moderate,0,0,none,0,5,1,93,110,28,1,0,0,0,0,astma,Astma xuruji
+37.4,none,severe,0,0,mild,0,7,2,90,128,32,1,0,0,0,0,astma,Astma xuruji
+36.8,dry,moderate,0,0,none,0,5,1,92,112,28,1,0,0,0,0,astma,Astma xuruji
+37.1,none,severe,0,0,none,0,6,1,91,118,30,1,0,0,0,0,astma,Astma xuruji
+37.0,dry,moderate,0,0,mild,0,6,2,93,114,29,1,0,0,0,0,asthma,Astma xuruji
+36.7,none,moderate,0,0,none,0,5,1,92,108,27,1,0,0,0,0,astma,Astma xuruji
+37.3,none,severe,0,0,mild,0,7,1,90,124,31,1,0,0,0,0,astma,Astma xuruji
+36.9,dry,moderate,0,0,none,0,5,2,93,110,28,1,0,0,0,0,astma,Astma xuruji
+37.1,none,severe,0,0,none,0,6,1,91,120,30,1,0,0,0,0,astma,Astma xuruji
+37.2,dry,moderate,0,0,mild,0,6,2,92,116,29,1,0,0,0,0,asthma,Astma xuruji
+36.8,none,moderate,0,0,none,0,5,1,93,112,28,1,0,0,0,0,astma,Astma xuruji
+37.0,none,severe,0,0,none,0,7,1,91,118,30,1,0,0,0,0,astma,Astma xuruji
+37.3,dry,moderate,0,0,mild,0,6,2,92,114,29,1,0,0,0,0,astma,Astma xuruji
+36.7,none,moderate,0,0,none,0,5,1,93,108,27,1,0,0,0,0,astma,Astma xuruji
+37.1,none,severe,0,0,mild,0,7,1,90,122,31,1,0,0,0,0,astma,Astma xuruji
+37.2,none,severe,0,0,none,0,6,2,91,120,30,1,0,0,0,0,astma,Astma xuruji
+36.9,dry,moderate,0,0,none,0,5,1,93,110,28,1,0,0,0,0,astma,Astma xuruji
+37.0,none,severe,0,0,mild,0,7,1,90,126,32,1,0,0,0,0,astma,Astma xuruji
+36.8,dry,moderate,0,0,none,0,5,2,92,112,28,1,0,0,0,0,asthma,Astma xuruji
+37.4,none,severe,0,0,none,0,6,1,91,124,31,1,0,0,0,0,astma,Astma xuruji
+40.0,bloody,severe,0,0,severe,1,10,3,84,140,36,1,0,0,0,1,koah,Shoshilinch yordam kerak
+39.7,wet,severe,0,0,moderate,1,10,6,86,138,35,1,0,0,0,0,,Shoshilinch yordam kerak
+38.8,bloody,moderate,0,0,mild,0,9,4,88,132,34,1,0,0,0,1,,Shoshilinch yordam kerak
+37.5,dry,severe,0,0,none,0,8,2,85,136,38,1,0,0,0,0,astma,Shoshilinch yordam kerak
+39.9,wet,severe,0,0,moderate,1,10,5,87,142,37,1,0,0,0,0,,Shoshilinch yordam kerak
+40.2,bloody,severe,0,0,severe,1,10,4,83,144,38,1,0,0,0,1,koah,Shoshilinch yordam kerak
+39.5,wet,severe,0,0,moderate,1,10,3,86,136,35,1,0,0,0,0,,Shoshilinch yordam kerak
+38.6,bloody,severe,0,0,mild,0,9,5,87,130,33,1,0,0,0,1,,Shoshilinch yordam kerak
+37.8,dry,severe,0,0,none,0,8,2,84,138,39,1,0,0,0,0,astma,Shoshilinch yordam kerak
+40.1,wet,severe,0,0,severe,1,10,6,85,146,38,1,0,0,0,0,,Shoshilinch yordam kerak
+39.8,bloody,severe,0,0,moderate,1,10,4,84,140,36,1,0,0,0,1,koah,Shoshilinch yordam kerak
+39.6,wet,severe,0,0,moderate,1,10,3,86,134,35,1,0,0,0,0,,Shoshilinch yordam kerak
+38.9,bloody,moderate,0,0,mild,0,9,5,88,128,33,1,0,0,0,1,,Shoshilinch yordam kerak
+37.6,dry,severe,0,0,none,0,8,2,85,136,38,1,0,0,0,0,astma,Shoshilinch yordam kerak
+40.0,wet,severe,0,0,severe,1,10,4,84,142,37,1,0,0,0,0,,Shoshilinch yordam kerak
+39.7,bloody,severe,0,0,moderate,1,10,5,83,144,38,1,0,0,0,1,koah,Shoshilinch yordam kerak
+39.4,wet,severe,0,0,moderate,1,10,3,87,136,35,1,0,0,0,0,,Shoshilinch yordam kerak
+38.7,bloody,severe,0,0,mild,0,9,4,88,130,34,1,0,0,0,1,,Shoshilinch yordam kerak
+40.1,wet,severe,0,0,severe,1,10,6,85,146,38,1,0,0,0,0,,Shoshilinch yordam kerak
+39.6,bloody,severe,0,0,moderate,1,10,4,84,138,36,1,0,0,0,0,koah,Shoshilinch yordam kerak
+39.9,wet,severe,0,0,moderate,1,10,5,86,140,37,1,0,0,0,1,,Shoshilinch yordam kerak
+38.8,bloody,moderate,0,0,mild,0,9,3,88,132,34,1,0,0,0,1,,Shoshilinch yordam kerak
+37.7,dry,severe,0,0,none,0,8,2,85,134,38,1,0,0,0,0,astma,Shoshilinch yordam kerak
+40.0,wet,severe,0,0,severe,1,10,4,83,142,37,1,0,0,0,0,,Shoshilinch yordam kerak
+39.5,bloody,severe,0,0,moderate,1,10,5,84,138,36,1,0,0,0,1,koah,Shoshilinch yordam kerak
+39.8,wet,severe,0,0,moderate,1,10,3,86,136,35,1,0,0,0,0,,Shoshilinch yordam kerak
+38.6,bloody,severe,0,0,mild,0,9,4,88,130,34,1,0,0,0,1,,Shoshilinch yordam kerak
+40.2,wet,severe,0,0,severe,1,10,6,84,144,38,1,0,0,0,0,,Shoshilinch yordam kerak
+39.7,bloody,severe,0,0,moderate,1,10,5,83,140,36,1,0,0,0,1,koah,Shoshilinch yordam kerak

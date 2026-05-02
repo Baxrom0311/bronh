@@ -1,0 +1,419 @@
+{
+  "model_type": "categorical_naive_bayes",
+  "model_version": 1,
+  "sample_count": 162,
+  "label_count": 7,
+  "feature_count": 18,
+  "top_n": 5,
+  "per_label": {
+    "ARVI / oddiy shamollash": {
+      "sample_count": 21,
+      "prior_probability": 0.13,
+      "top_feature_signals": [
+        {
+          "feature": "runny_nose",
+          "value": "yes",
+          "label_count": 21,
+          "label_probability": 0.917,
+          "other_probability": 0.007,
+          "lift_ratio": 132.0,
+          "support_score": 4.883
+        },
+        {
+          "feature": "fatigue_bin",
+          "value": "none",
+          "label_count": 5,
+          "label_probability": 0.231,
+          "other_probability": 0.007,
+          "lift_ratio": 33.692,
+          "support_score": 3.517
+        },
+        {
+          "feature": "heart_rate_bin",
+          "value": "normal",
+          "label_count": 20,
+          "label_probability": 0.808,
+          "other_probability": 0.041,
+          "lift_ratio": 19.654,
+          "support_score": 2.978
+        },
+        {
+          "feature": "fatigue_bin",
+          "value": "mild",
+          "label_count": 16,
+          "label_probability": 0.654,
+          "other_probability": 0.075,
+          "lift_ratio": 8.678,
+          "support_score": 2.161
+        },
+        {
+          "feature": "oxygen_bin",
+          "value": "normal",
+          "label_count": 21,
+          "label_probability": 0.846,
+          "other_probability": 0.123,
+          "lift_ratio": 6.863,
+          "support_score": 1.926
+        }
+      ]
+    },
+    "Astma xuruji": {
+      "sample_count": 22,
+      "prior_probability": 0.136,
+      "top_feature_signals": [
+        {
+          "feature": "chronic_bucket",
+          "value": "asthma",
+          "label_count": 22,
+          "label_probability": 0.885,
+          "other_probability": 0.028,
+          "lift_ratio": 31.846,
+          "support_score": 3.461
+        },
+        {
+          "feature": "temperature_bin",
+          "value": "normal",
+          "label_count": 22,
+          "label_probability": 0.852,
+          "other_probability": 0.145,
+          "lift_ratio": 5.882,
+          "support_score": 1.772
+        },
+        {
+          "feature": "cough_type",
+          "value": "none",
+          "label_count": 15,
+          "label_probability": 0.593,
+          "other_probability": 0.103,
+          "lift_ratio": 5.728,
+          "support_score": 1.745
+        },
+        {
+          "feature": "oxygen_bin",
+          "value": "low",
+          "label_count": 22,
+          "label_probability": 0.852,
+          "other_probability": 0.179,
+          "lift_ratio": 4.751,
+          "support_score": 1.558
+        },
+        {
+          "feature": "heart_rate_bin",
+          "value": "high",
+          "label_count": 20,
+          "label_probability": 0.778,
+          "other_probability": 0.234,
+          "lift_ratio": 3.317,
+          "support_score": 1.199
+        }
+      ]
+    },
+    "Bronxit": {
+      "sample_count": 24,
+      "prior_probability": 0.148,
+      "top_feature_signals": [
+        {
+          "feature": "chronic_bucket",
+          "value": "copd",
+          "label_count": 9,
+          "label_probability": 0.357,
+          "other_probability": 0.049,
+          "lift_ratio": 7.245,
+          "support_score": 1.98
+        },
+        {
+          "feature": "duration_bin",
+          "value": "long",
+          "label_count": 6,
+          "label_probability": 0.25,
+          "other_probability": 0.042,
+          "lift_ratio": 5.917,
+          "support_score": 1.778
+        },
+        {
+          "feature": "smoker",
+          "value": "yes",
+          "label_count": 19,
+          "label_probability": 0.741,
+          "other_probability": 0.128,
+          "lift_ratio": 5.802,
+          "support_score": 1.758
+        },
+        {
+          "feature": "oxygen_bin",
+          "value": "borderline",
+          "label_count": 24,
+          "label_probability": 0.862,
+          "other_probability": 0.224,
+          "lift_ratio": 3.852,
+          "support_score": 1.349
+        },
+        {
+          "feature": "temperature_bin",
+          "value": "mild",
+          "label_count": 24,
+          "label_probability": 0.862,
+          "other_probability": 0.238,
+          "lift_ratio": 3.626,
+          "support_score": 1.288
+        }
+      ]
+    },
+    "COVID-19 (mumkin)": {
+      "sample_count": 26,
+      "prior_probability": 0.16,
+      "top_feature_signals": [
+        {
+          "feature": "loss_of_taste",
+          "value": "yes",
+          "label_count": 26,
+          "label_probability": 0.931,
+          "other_probability": 0.007,
+          "lift_ratio": 129.414,
+          "support_score": 4.863
+        },
+        {
+          "feature": "covid_contact",
+          "value": "yes",
+          "label_count": 26,
+          "label_probability": 0.931,
+          "other_probability": 0.007,
+          "lift_ratio": 129.414,
+          "support_score": 4.863
+        },
+        {
+          "feature": "diarrhea",
+          "value": "yes",
+          "label_count": 7,
+          "label_probability": 0.276,
+          "other_probability": 0.007,
+          "lift_ratio": 38.345,
+          "support_score": 3.647
+        },
+        {
+          "feature": "temperature_bin",
+          "value": "mild",
+          "label_count": 25,
+          "label_probability": 0.839,
+          "other_probability": 0.234,
+          "lift_ratio": 3.584,
+          "support_score": 1.276
+        },
+        {
+          "feature": "cough_type",
+          "value": "dry",
+          "label_count": 26,
+          "label_probability": 0.871,
+          "other_probability": 0.284,
+          "lift_ratio": 3.07,
+          "support_score": 1.122
+        }
+      ]
+    },
+    "Gripp": {
+      "sample_count": 22,
+      "prior_probability": 0.136,
+      "top_feature_signals": [
+        {
+          "feature": "headache_level",
+          "value": "severe",
+          "label_count": 6,
+          "label_probability": 0.259,
+          "other_probability": 0.041,
+          "lift_ratio": 6.265,
+          "support_score": 1.835
+        },
+        {
+          "feature": "sore_throat",
+          "value": "yes",
+          "label_count": 16,
+          "label_probability": 0.68,
+          "other_probability": 0.175,
+          "lift_ratio": 3.89,
+          "support_score": 1.358
+        },
+        {
+          "feature": "temperature_bin",
+          "value": "high",
+          "label_count": 18,
+          "label_probability": 0.704,
+          "other_probability": 0.221,
+          "lift_ratio": 3.189,
+          "support_score": 1.16
+        },
+        {
+          "feature": "cough_type",
+          "value": "dry",
+          "label_count": 22,
+          "label_probability": 0.852,
+          "other_probability": 0.303,
+          "lift_ratio": 2.807,
+          "support_score": 1.032
+        },
+        {
+          "feature": "dyspnea_level",
+          "value": "none",
+          "label_count": 12,
+          "label_probability": 0.481,
+          "other_probability": 0.186,
+          "lift_ratio": 2.586,
+          "support_score": 0.95
+        }
+      ]
+    },
+    "Shoshilinch yordam kerak": {
+      "sample_count": 22,
+      "prior_probability": 0.136,
+      "top_feature_signals": [
+        {
+          "feature": "oxygen_bin",
+          "value": "critical",
+          "label_count": 22,
+          "label_probability": 0.852,
+          "other_probability": 0.007,
+          "lift_ratio": 123.519,
+          "support_score": 4.816
+        },
+        {
+          "feature": "heart_rate_bin",
+          "value": "very_high",
+          "label_count": 21,
+          "label_probability": 0.815,
+          "other_probability": 0.007,
+          "lift_ratio": 118.148,
+          "support_score": 4.772
+        },
+        {
+          "feature": "respiratory_rate_bin",
+          "value": "critical",
+          "label_count": 17,
+          "label_probability": 0.667,
+          "other_probability": 0.007,
+          "lift_ratio": 96.667,
+          "support_score": 4.571
+        },
+        {
+          "feature": "temperature_bin",
+          "value": "very_high",
+          "label_count": 14,
+          "label_probability": 0.556,
+          "other_probability": 0.007,
+          "lift_ratio": 80.556,
+          "support_score": 4.389
+        },
+        {
+          "feature": "cough_type",
+          "value": "bloody",
+          "label_count": 11,
+          "label_probability": 0.444,
+          "other_probability": 0.007,
+          "lift_ratio": 64.444,
+          "support_score": 4.166
+        }
+      ]
+    },
+    "Zotiljam (pnevmoniya)": {
+      "sample_count": 25,
+      "prior_probability": 0.154,
+      "top_feature_signals": [
+        {
+          "feature": "oxygen_bin",
+          "value": "low",
+          "label_count": 25,
+          "label_probability": 0.867,
+          "other_probability": 0.162,
+          "lift_ratio": 5.351,
+          "support_score": 1.677
+        },
+        {
+          "feature": "temperature_bin",
+          "value": "high",
+          "label_count": 25,
+          "label_probability": 0.867,
+          "other_probability": 0.176,
+          "lift_ratio": 4.923,
+          "support_score": 1.594
+        },
+        {
+          "feature": "respiratory_rate_bin",
+          "value": "high",
+          "label_count": 16,
+          "label_probability": 0.567,
+          "other_probability": 0.12,
+          "lift_ratio": 4.733,
+          "support_score": 1.555
+        },
+        {
+          "feature": "duration_bin",
+          "value": "long",
+          "label_count": 5,
+          "label_probability": 0.207,
+          "other_probability": 0.05,
+          "lift_ratio": 4.167,
+          "support_score": 1.427
+        },
+        {
+          "feature": "cough_type",
+          "value": "wet",
+          "label_count": 25,
+          "label_probability": 0.867,
+          "other_probability": 0.232,
+          "lift_ratio": 3.729,
+          "support_score": 1.316
+        }
+      ]
+    }
+  },
+  "global_top_signals": [
+    {
+      "label": "ARVI / oddiy shamollash",
+      "feature": "runny_nose",
+      "value": "yes",
+      "label_count": 21,
+      "label_probability": 0.917,
+      "other_probability": 0.007,
+      "lift_ratio": 132.0,
+      "support_score": 4.883
+    },
+    {
+      "label": "COVID-19 (mumkin)",
+      "feature": "loss_of_taste",
+      "value": "yes",
+      "label_count": 26,
+      "label_probability": 0.931,
+      "other_probability": 0.007,
+      "lift_ratio": 129.414,
+      "support_score": 4.863
+    },
+    {
+      "label": "COVID-19 (mumkin)",
+      "feature": "covid_contact",
+      "value": "yes",
+      "label_count": 26,
+      "label_probability": 0.931,
+      "other_probability": 0.007,
+      "lift_ratio": 129.414,
+      "support_score": 4.863
+    },
+    {
+      "label": "Shoshilinch yordam kerak",
+      "feature": "oxygen_bin",
+      "value": "critical",
+      "label_count": 22,
+      "label_probability": 0.852,
+      "other_probability": 0.007,
+      "lift_ratio": 123.519,
+      "support_score": 4.816
+    },
+    {
+      "label": "Shoshilinch yordam kerak",
+      "feature": "heart_rate_bin",
+      "value": "very_high",
+      "label_count": 21,
+      "label_probability": 0.815,
+      "other_probability": 0.007,
+      "lift_ratio": 118.148,
+      "support_score": 4.772
+    }
+  ]
+}

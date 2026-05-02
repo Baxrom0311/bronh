@@ -1,0 +1,619 @@
+{
+  "model_type": "categorical_naive_bayes",
+  "version": 1,
+  "feature_names": [
+    "temperature_bin",
+    "cough_type",
+    "dyspnea_level",
+    "sore_throat",
+    "runny_nose",
+    "headache_level",
+    "muscle_pain",
+    "fatigue_bin",
+    "duration_bin",
+    "oxygen_bin",
+    "heart_rate_bin",
+    "respiratory_rate_bin",
+    "chest_pain",
+    "loss_of_taste",
+    "diarrhea",
+    "covid_contact",
+    "smoker",
+    "chronic_bucket"
+  ],
+  "labels": [
+    "ARVI / oddiy shamollash",
+    "Astma xuruji",
+    "Bronxit",
+    "COVID-19 (mumkin)",
+    "Gripp",
+    "Shoshilinch yordam kerak",
+    "Zotiljam (pnevmoniya)"
+  ],
+  "label_counts": {
+    "ARVI / oddiy shamollash": 21,
+    "Astma xuruji": 22,
+    "Bronxit": 24,
+    "COVID-19 (mumkin)": 26,
+    "Gripp": 22,
+    "Shoshilinch yordam kerak": 22,
+    "Zotiljam (pnevmoniya)": 25
+  },
+  "feature_value_counts": {
+    "temperature_bin": {
+      "ARVI / oddiy shamollash": {
+        "normal": 20,
+        "mild": 1
+      },
+      "Astma xuruji": {
+        "normal": 22
+      },
+      "Bronxit": {
+        "mild": 24
+      },
+      "COVID-19 (mumkin)": {
+        "mild": 25,
+        "high": 1
+      },
+      "Gripp": {
+        "high": 18,
+        "mild": 4
+      },
+      "Shoshilinch yordam kerak": {
+        "high": 5,
+        "very_high": 14,
+        "mild": 3
+      },
+      "Zotiljam (pnevmoniya)": {
+        "high": 25
+      }
+    },
+    "cough_type": {
+      "ARVI / oddiy shamollash": {
+        "none": 14,
+        "dry": 7
+      },
+      "Astma xuruji": {
+        "none": 15,
+        "dry": 7
+      },
+      "Bronxit": {
+        "wet": 24
+      },
+      "COVID-19 (mumkin)": {
+        "dry": 26
+      },
+      "Gripp": {
+        "dry": 22
+      },
+      "Shoshilinch yordam kerak": {
+        "bloody": 11,
+        "wet": 8,
+        "dry": 3
+      },
+      "Zotiljam (pnevmoniya)": {
+        "wet": 25
+      }
+    },
+    "dyspnea_level": {
+      "ARVI / oddiy shamollash": {
+        "none": 19,
+        "mild": 2
+      },
+      "Astma xuruji": {
+        "severe": 11,
+        "moderate": 11
+      },
+      "Bronxit": {
+        "moderate": 7,
+        "mild": 17
+      },
+      "COVID-19 (mumkin)": {
+        "none": 7,
+        "mild": 13,
+        "moderate": 6
+      },
+      "Gripp": {
+        "none": 12,
+        "mild": 10
+      },
+      "Shoshilinch yordam kerak": {
+        "severe": 19,
+        "moderate": 3
+      },
+      "Zotiljam (pnevmoniya)": {
+        "moderate": 16,
+        "severe": 9
+      }
+    },
+    "sore_throat": {
+      "ARVI / oddiy shamollash": {
+        "yes": 16,
+        "no": 5
+      },
+      "Astma xuruji": {
+        "no": 21,
+        "yes": 1
+      },
+      "Bronxit": {
+        "no": 20,
+        "yes": 4
+      },
+      "COVID-19 (mumkin)": {
+        "no": 23,
+        "yes": 3
+      },
+      "Gripp": {
+        "no": 6,
+        "yes": 16
+      },
+      "Shoshilinch yordam kerak": {
+        "no": 22
+      },
+      "Zotiljam (pnevmoniya)": {
+        "no": 25
+      }
+    },
+    "runny_nose": {
+      "ARVI / oddiy shamollash": {
+        "yes": 21
+      },
+      "Astma xuruji": {
+        "no": 22
+      },
+      "Bronxit": {
+        "no": 24
+      },
+      "COVID-19 (mumkin)": {
+        "no": 26
+      },
+      "Gripp": {
+        "no": 22
+      },
+      "Shoshilinch yordam kerak": {
+        "no": 22
+      },
+      "Zotiljam (pnevmoniya)": {
+        "no": 25
+      }
+    },
+    "headache_level": {
+      "ARVI / oddiy shamollash": {
+        "none": 10,
+        "mild": 11
+      },
+      "Astma xuruji": {
+        "mild": 8,
+        "none": 14
+      },
+      "Bronxit": {
+        "mild": 15,
+        "none": 9
+      },
+      "COVID-19 (mumkin)": {
+        "mild": 14,
+        "moderate": 8,
+        "none": 4
+      },
+      "Gripp": {
+        "severe": 6,
+        "moderate": 12,
+        "mild": 4
+      },
+      "Shoshilinch yordam kerak": {
+        "mild": 5,
+        "moderate": 9,
+        "severe": 5,
+        "none": 3
+      },
+      "Zotiljam (pnevmoniya)": {
+        "mild": 10,
+        "moderate": 15
+      }
+    },
+    "muscle_pain": {
+      "ARVI / oddiy shamollash": {
+        "no": 21
+      },
+      "Astma xuruji": {
+        "no": 22
+      },
+      "Bronxit": {
+        "no": 24
+      },
+      "COVID-19 (mumkin)": {
+        "no": 7,
+        "yes": 19
+      },
+      "Gripp": {
+        "yes": 22
+      },
+      "Shoshilinch yordam kerak": {
+        "no": 8,
+        "yes": 14
+      },
+      "Zotiljam (pnevmoniya)": {
+        "no": 6,
+        "yes": 19
+      }
+    },
+    "fatigue_bin": {
+      "ARVI / oddiy shamollash": {
+        "mild": 16,
+        "none": 5
+      },
+      "Astma xuruji": {
+        "moderate": 22
+      },
+      "Bronxit": {
+        "moderate": 16,
+        "mild": 8
+      },
+      "COVID-19 (mumkin)": {
+        "moderate": 20,
+        "severe": 4,
+        "mild": 2
+      },
+      "Gripp": {
+        "severe": 13,
+        "moderate": 9
+      },
+      "Shoshilinch yordam kerak": {
+        "severe": 22
+      },
+      "Zotiljam (pnevmoniya)": {
+        "moderate": 6,
+        "severe": 19
+      }
+    },
+    "duration_bin": {
+      "ARVI / oddiy shamollash": {
+        "short": 19,
+        "medium": 2
+      },
+      "Astma xuruji": {
+        "short": 22
+      },
+      "Bronxit": {
+        "medium": 18,
+        "long": 6
+      },
+      "COVID-19 (mumkin)": {
+        "short": 14,
+        "medium": 12
+      },
+      "Gripp": {
+        "short": 21,
+        "medium": 1
+      },
+      "Shoshilinch yordam kerak": {
+        "medium": 9,
+        "short": 13
+      },
+      "Zotiljam (pnevmoniya)": {
+        "medium": 20,
+        "long": 5
+      }
+    },
+    "oxygen_bin": {
+      "ARVI / oddiy shamollash": {
+        "normal": 21
+      },
+      "Astma xuruji": {
+        "low": 22
+      },
+      "Bronxit": {
+        "borderline": 24
+      },
+      "COVID-19 (mumkin)": {
+        "normal": 11,
+        "borderline": 15
+      },
+      "Gripp": {
+        "borderline": 16,
+        "normal": 6
+      },
+      "Shoshilinch yordam kerak": {
+        "critical": 22
+      },
+      "Zotiljam (pnevmoniya)": {
+        "low": 25
+      }
+    },
+    "heart_rate_bin": {
+      "ARVI / oddiy shamollash": {
+        "normal": 20,
+        "mild": 1
+      },
+      "Astma xuruji": {
+        "high": 20,
+        "mild": 2
+      },
+      "Bronxit": {
+        "mild": 24
+      },
+      "COVID-19 (mumkin)": {
+        "mild": 21,
+        "normal": 5
+      },
+      "Gripp": {
+        "high": 10,
+        "mild": 12
+      },
+      "Shoshilinch yordam kerak": {
+        "very_high": 21,
+        "high": 1
+      },
+      "Zotiljam (pnevmoniya)": {
+        "mild": 3,
+        "high": 22
+      }
+    },
+    "respiratory_rate_bin": {
+      "ARVI / oddiy shamollash": {
+        "normal": 21
+      },
+      "Astma xuruji": {
+        "high": 11,
+        "mild": 11
+      },
+      "Bronxit": {
+        "mild": 24
+      },
+      "COVID-19 (mumkin)": {
+        "normal": 12,
+        "mild": 14
+      },
+      "Gripp": {
+        "mild": 16,
+        "normal": 6
+      },
+      "Shoshilinch yordam kerak": {
+        "high": 5,
+        "critical": 17
+      },
+      "Zotiljam (pnevmoniya)": {
+        "mild": 9,
+        "high": 16
+      }
+    },
+    "chest_pain": {
+      "ARVI / oddiy shamollash": {
+        "no": 21
+      },
+      "Astma xuruji": {
+        "yes": 22
+      },
+      "Bronxit": {
+        "no": 24
+      },
+      "COVID-19 (mumkin)": {
+        "no": 26
+      },
+      "Gripp": {
+        "no": 22
+      },
+      "Shoshilinch yordam kerak": {
+        "yes": 22
+      },
+      "Zotiljam (pnevmoniya)": {
+        "yes": 25
+      }
+    },
+    "loss_of_taste": {
+      "ARVI / oddiy shamollash": {
+        "no": 21
+      },
+      "Astma xuruji": {
+        "no": 22
+      },
+      "Bronxit": {
+        "no": 24
+      },
+      "COVID-19 (mumkin)": {
+        "yes": 26
+      },
+      "Gripp": {
+        "no": 22
+      },
+      "Shoshilinch yordam kerak": {
+        "no": 22
+      },
+      "Zotiljam (pnevmoniya)": {
+        "no": 25
+      }
+    },
+    "diarrhea": {
+      "ARVI / oddiy shamollash": {
+        "no": 21
+      },
+      "Astma xuruji": {
+        "no": 22
+      },
+      "Bronxit": {
+        "no": 24
+      },
+      "COVID-19 (mumkin)": {
+        "no": 19,
+        "yes": 7
+      },
+      "Gripp": {
+        "no": 22
+      },
+      "Shoshilinch yordam kerak": {
+        "no": 22
+      },
+      "Zotiljam (pnevmoniya)": {
+        "no": 25
+      }
+    },
+    "covid_contact": {
+      "ARVI / oddiy shamollash": {
+        "no": 21
+      },
+      "Astma xuruji": {
+        "no": 22
+      },
+      "Bronxit": {
+        "no": 24
+      },
+      "COVID-19 (mumkin)": {
+        "yes": 26
+      },
+      "Gripp": {
+        "no": 22
+      },
+      "Shoshilinch yordam kerak": {
+        "no": 22
+      },
+      "Zotiljam (pnevmoniya)": {
+        "no": 25
+      }
+    },
+    "smoker": {
+      "ARVI / oddiy shamollash": {
+        "no": 21
+      },
+      "Astma xuruji": {
+        "no": 22
+      },
+      "Bronxit": {
+        "yes": 19,
+        "no": 5
+      },
+      "COVID-19 (mumkin)": {
+        "no": 26
+      },
+      "Gripp": {
+        "no": 22
+      },
+      "Shoshilinch yordam kerak": {
+        "yes": 11,
+        "no": 11
+      },
+      "Zotiljam (pnevmoniya)": {
+        "yes": 6,
+        "no": 19
+      }
+    },
+    "chronic_bucket": {
+      "ARVI / oddiy shamollash": {
+        "none": 21
+      },
+      "Astma xuruji": {
+        "asthma": 22
+      },
+      "Bronxit": {
+        "copd": 9,
+        "none": 15
+      },
+      "COVID-19 (mumkin)": {
+        "none": 26
+      },
+      "Gripp": {
+        "none": 22
+      },
+      "Shoshilinch yordam kerak": {
+        "none": 13,
+        "copd": 6,
+        "asthma": 3
+      },
+      "Zotiljam (pnevmoniya)": {
+        "none": 25
+      }
+    }
+  },
+  "feature_vocab": {
+    "temperature_bin": [
+      "high",
+      "mild",
+      "normal",
+      "very_high"
+    ],
+    "cough_type": [
+      "bloody",
+      "dry",
+      "none",
+      "wet"
+    ],
+    "dyspnea_level": [
+      "mild",
+      "moderate",
+      "none",
+      "severe"
+    ],
+    "sore_throat": [
+      "no",
+      "yes"
+    ],
+    "runny_nose": [
+      "no",
+      "yes"
+    ],
+    "headache_level": [
+      "mild",
+      "moderate",
+      "none",
+      "severe"
+    ],
+    "muscle_pain": [
+      "no",
+      "yes"
+    ],
+    "fatigue_bin": [
+      "mild",
+      "moderate",
+      "none",
+      "severe"
+    ],
+    "duration_bin": [
+      "long",
+      "medium",
+      "short"
+    ],
+    "oxygen_bin": [
+      "borderline",
+      "critical",
+      "low",
+      "normal"
+    ],
+    "heart_rate_bin": [
+      "high",
+      "mild",
+      "normal",
+      "very_high"
+    ],
+    "respiratory_rate_bin": [
+      "critical",
+      "high",
+      "mild",
+      "normal"
+    ],
+    "chest_pain": [
+      "no",
+      "yes"
+    ],
+    "loss_of_taste": [
+      "no",
+      "yes"
+    ],
+    "diarrhea": [
+      "no",
+      "yes"
+    ],
+    "covid_contact": [
+      "no",
+      "yes"
+    ],
+    "smoker": [
+      "no",
+      "yes"
+    ],
+    "chronic_bucket": [
+      "asthma",
+      "copd",
+      "none"
+    ]
+  },
+  "sample_count": 162
+}
