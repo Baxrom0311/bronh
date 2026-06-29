@@ -1,6 +1,6 @@
 # Respiratory Dataset Cleaning Report
 
-- Source path: `data/respiratory_seed_cases.csv`
+- Source path: `/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/respiratory_seed_cases.csv`
 - Mapping path: `None`
 - Total rows: `203`
 - Rows with any change: `0`

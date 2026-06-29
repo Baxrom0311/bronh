@@ -1,8 +1,27 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
-import { Users, User as UserIcon, Stethoscope, BrainCircuit, ShieldCheck, ArrowRight, ClipboardPlus, FileSearch } from "lucide-react";
-import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import {
+  Users,
+  User as UserIcon,
+  Stethoscope,
+  BrainCircuit,
+  ShieldCheck,
+  ArrowRight,
+  ClipboardPlus,
+  FileSearch,
+} from "lucide-react";
+import {
+  PieChart,
+  Pie,
+  Cell,
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 import { GlassCard } from "@/components/GlassCard";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useAuth } from "@/lib/auth-store";
@@ -168,57 +187,87 @@ function Dashboard() {
           <h2 className="font-semibold mb-4">{t("app.tagline")}</h2>
           <div className="grid gap-3 sm:grid-cols-3">
             <Link to="/app/patients/new">
-              <div className={cn(
-                "rounded-2xl border p-4 transition-all hover:-translate-y-0.5",
-                (patients?.length ?? 0) > 0
-                  ? "border-primary/30 bg-primary/5"
-                  : "border-border/50 bg-background/40"
-              )}>
-                <div className={cn(
-                  "size-10 rounded-xl flex items-center justify-center mb-3",
-                  (patients?.length ?? 0) > 0 ? "bg-primary/20 text-primary" : "bg-muted text-muted-foreground"
-                )}>
+              <div
+                className={cn(
+                  "rounded-2xl border p-4 transition-all hover:-translate-y-0.5",
+                  (patients?.length ?? 0) > 0
+                    ? "border-primary/30 bg-primary/5"
+                    : "border-border/50 bg-background/40",
+                )}
+              >
+                <div
+                  className={cn(
+                    "size-10 rounded-xl flex items-center justify-center mb-3",
+                    (patients?.length ?? 0) > 0
+                      ? "bg-primary/20 text-primary"
+                      : "bg-muted text-muted-foreground",
+                  )}
+                >
                   <UserIcon className="size-5" />
                 </div>
                 <div className="font-medium text-sm">{t("dashboard.createProfile")}</div>
-                <div className="text-xs text-muted-foreground mt-1">{t("dashboard.createProfileDesc")}</div>
-                {(patients?.length ?? 0) > 0 && <div className="text-xs text-primary mt-2">&#10003;</div>}
+                <div className="text-xs text-muted-foreground mt-1">
+                  {t("dashboard.createProfileDesc")}
+                </div>
+                {(patients?.length ?? 0) > 0 && (
+                  <div className="text-xs text-primary mt-2">&#10003;</div>
+                )}
               </div>
             </Link>
             <Link to="/app/symptoms/new">
-              <div className={cn(
-                "rounded-2xl border p-4 transition-all hover:-translate-y-0.5",
-                (symptoms?.length ?? 0) > 0
-                  ? "border-primary/30 bg-primary/5"
-                  : "border-border/50 bg-background/40"
-              )}>
-                <div className={cn(
-                  "size-10 rounded-xl flex items-center justify-center mb-3",
-                  (symptoms?.length ?? 0) > 0 ? "bg-primary/20 text-primary" : "bg-muted text-muted-foreground"
-                )}>
+              <div
+                className={cn(
+                  "rounded-2xl border p-4 transition-all hover:-translate-y-0.5",
+                  (symptoms?.length ?? 0) > 0
+                    ? "border-primary/30 bg-primary/5"
+                    : "border-border/50 bg-background/40",
+                )}
+              >
+                <div
+                  className={cn(
+                    "size-10 rounded-xl flex items-center justify-center mb-3",
+                    (symptoms?.length ?? 0) > 0
+                      ? "bg-primary/20 text-primary"
+                      : "bg-muted text-muted-foreground",
+                  )}
+                >
                   <ClipboardPlus className="size-5" />
                 </div>
                 <div className="font-medium text-sm">{t("dashboard.addSymptoms")}</div>
-                <div className="text-xs text-muted-foreground mt-1">{t("dashboard.addSymptomsDesc")}</div>
-                {(symptoms?.length ?? 0) > 0 && <div className="text-xs text-primary mt-2">&#10003;</div>}
+                <div className="text-xs text-muted-foreground mt-1">
+                  {t("dashboard.addSymptomsDesc")}
+                </div>
+                {(symptoms?.length ?? 0) > 0 && (
+                  <div className="text-xs text-primary mt-2">&#10003;</div>
+                )}
               </div>
             </Link>
             <Link to="/app/diagnoses">
-              <div className={cn(
-                "rounded-2xl border p-4 transition-all hover:-translate-y-0.5",
-                (diagnoses?.length ?? 0) > 0
-                  ? "border-primary/30 bg-primary/5"
-                  : "border-border/50 bg-background/40"
-              )}>
-                <div className={cn(
-                  "size-10 rounded-xl flex items-center justify-center mb-3",
-                  (diagnoses?.length ?? 0) > 0 ? "bg-primary/20 text-primary" : "bg-muted text-muted-foreground"
-                )}>
+              <div
+                className={cn(
+                  "rounded-2xl border p-4 transition-all hover:-translate-y-0.5",
+                  (diagnoses?.length ?? 0) > 0
+                    ? "border-primary/30 bg-primary/5"
+                    : "border-border/50 bg-background/40",
+                )}
+              >
+                <div
+                  className={cn(
+                    "size-10 rounded-xl flex items-center justify-center mb-3",
+                    (diagnoses?.length ?? 0) > 0
+                      ? "bg-primary/20 text-primary"
+                      : "bg-muted text-muted-foreground",
+                  )}
+                >
                   <FileSearch className="size-5" />
                 </div>
                 <div className="font-medium text-sm">{t("dashboard.viewResults")}</div>
-                <div className="text-xs text-muted-foreground mt-1">{t("dashboard.viewResultsDesc")}</div>
-                {(diagnoses?.length ?? 0) > 0 && <div className="text-xs text-primary mt-2">&#10003;</div>}
+                <div className="text-xs text-muted-foreground mt-1">
+                  {t("dashboard.viewResultsDesc")}
+                </div>
+                {(diagnoses?.length ?? 0) > 0 && (
+                  <div className="text-xs text-primary mt-2">&#10003;</div>
+                )}
               </div>
             </Link>
           </div>

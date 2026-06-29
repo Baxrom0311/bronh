@@ -30,7 +30,7 @@ class SymptomRecordCreate(BaseModel):
     @model_validator(mode="after")
     def validate_severe_case_has_context(self) -> "SymptomRecordCreate":
         if self.dyspnea_level == DyspneaLevel.severe and self.oxygen_saturation is None:
-            return self
+            raise ValueError("oxygen_saturation is required for severe dyspnea")
         return self
 
 

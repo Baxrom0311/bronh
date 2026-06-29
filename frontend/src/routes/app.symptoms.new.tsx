@@ -213,7 +213,9 @@ function NewSymptom() {
               <SelectField
                 label={t("symptoms.dyspnea")}
                 value={form.dyspnea_level}
-                onChange={(v) => setForm({ ...form, dyspnea_level: v as (typeof levelOpts)[number] })}
+                onChange={(v) =>
+                  setForm({ ...form, dyspnea_level: v as (typeof levelOpts)[number] })
+                }
                 options={levelOpts.map((l) => ({ v: l, l: t(`symptoms.levels.${l}`) }))}
               />
               <SelectField

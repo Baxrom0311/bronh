@@ -1,7 +1,6 @@
 import axios, { AxiosError, type AxiosRequestConfig } from "axios";
 
-export const API_BASE_URL =
-  (import.meta.env.VITE_API_BASE_URL as string | undefined) || "https://bronh.boos.uz/api/v1";
+export const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL as string | undefined) || "/api/v1";
 
 const TOKEN_KEY = "cdss.access_token";
 const REFRESH_KEY = "cdss.refresh_token";
@@ -44,16 +43,19 @@ const FIELD_LABELS: Record<string, string> = {
   weight_kg: "Vazn",
 };
 
-function formatValidationErrors(details: Array<{ loc?: unknown[]; msg?: string; type?: string }>): string {
+function formatValidationErrors(
+  details: Array<{ loc?: unknown[]; msg?: string; type?: string }>,
+): string {
   return details
     .map((err) => {
-      const field = Array.isArray(err.loc)
-        ? String(err.loc[err.loc.length - 1])
-        : "";
+      const field = Array.isArray(err.loc) ? String(err.loc[err.loc.length - 1]) : "";
       const label = FIELD_LABELS[field] || field;
       const rawMsg = err.msg || "noto'g'ri qiymat";
       const msg = rawMsg
-        .replace(/^String should have at least (\d+) characters?$/, "Kamida $1 ta belgi bo'lishi kerak")
+        .replace(
+          /^String should have at least (\d+) characters?$/,
+          "Kamida $1 ta belgi bo'lishi kerak",
+        )
         .replace(/^Field required$/, "Majburiy maydon")
         .replace(/^value is not a valid email address.*$/, "Email formati noto'g'ri");
       return `${label}: ${msg}`;

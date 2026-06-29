@@ -1,6 +1,8 @@
 from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+BACKEND_DIR = Path(__file__).resolve().parents[2]
+
 
 class Settings(BaseSettings):
     app_name: str = "Respiratory CDSS API"
@@ -22,31 +24,33 @@ class Settings(BaseSettings):
 
     cors_origins: str = "http://localhost:3000,http://localhost:5173"
 
-    ml_model_path: Path = Path("./ml_models/respiratory_nb_model.json")
-    ml_metrics_path: Path = Path("./ml_models/respiratory_nb_metrics.json")
-    ml_evaluation_path: Path = Path("./ml_models/respiratory_nb_evaluation.json")
-    ml_evaluation_markdown_path: Path = Path("./ml_models/respiratory_nb_evaluation.md")
-    ml_explainability_path: Path = Path("./ml_models/respiratory_nb_explainability.json")
-    ml_explainability_markdown_path: Path = Path("./ml_models/respiratory_nb_explainability.md")
-    diploma_report_path: Path = Path("./reports/diploma_ml_results.json")
-    diploma_report_markdown_path: Path = Path("./reports/diploma_ml_results.md")
-    diploma_chapter_draft_path: Path = Path("./reports/diploma_chapter_3_draft.md")
-    diploma_chapter_1_draft_path: Path = Path("./reports/diploma_chapter_1_draft.md")
-    diploma_chapter_2_draft_path: Path = Path("./reports/diploma_chapter_2_draft.md")
-    diploma_conclusion_draft_path: Path = Path("./reports/diploma_conclusion_draft.md")
-    diploma_full_draft_path: Path = Path("./reports/diploma_full_draft.md")
-    diploma_presentation_outline_path: Path = Path("./reports/diploma_presentation_outline.md")
-    diploma_defense_speech_path: Path = Path("./reports/diploma_defense_speech.md")
-    raw_dataset_path: Path = Path("./data/respiratory_seed_cases.csv")
-    canonical_dataset_path: Path = Path("./data/respiratory_canonical_dataset.csv")
-    feature_dataset_path: Path = Path("./data/respiratory_feature_dataset.csv")
-    dataset_split_path: Path = Path("./data/respiratory_train_test_split.json")
-    dataset_profile_path: Path = Path("./data/respiratory_seed_profile.json")
-    dataset_profile_markdown_path: Path = Path("./data/respiratory_seed_profile.md")
-    data_quality_path: Path = Path("./data/respiratory_data_quality.json")
-    data_quality_markdown_path: Path = Path("./data/respiratory_data_quality.md")
-    cleaning_report_path: Path = Path("./data/respiratory_cleaning_report.json")
-    cleaning_report_markdown_path: Path = Path("./data/respiratory_cleaning_report.md")
+    allow_public_role_selection: bool = False
+
+    ml_model_path: Path = BACKEND_DIR / "ml_models/respiratory_nb_model.json"
+    ml_metrics_path: Path = BACKEND_DIR / "ml_models/respiratory_nb_metrics.json"
+    ml_evaluation_path: Path = BACKEND_DIR / "ml_models/respiratory_nb_evaluation.json"
+    ml_evaluation_markdown_path: Path = BACKEND_DIR / "ml_models/respiratory_nb_evaluation.md"
+    ml_explainability_path: Path = BACKEND_DIR / "ml_models/respiratory_nb_explainability.json"
+    ml_explainability_markdown_path: Path = BACKEND_DIR / "ml_models/respiratory_nb_explainability.md"
+    diploma_report_path: Path = BACKEND_DIR / "reports/diploma_ml_results.json"
+    diploma_report_markdown_path: Path = BACKEND_DIR / "reports/diploma_ml_results.md"
+    diploma_chapter_draft_path: Path = BACKEND_DIR / "reports/diploma_chapter_3_draft.md"
+    diploma_chapter_1_draft_path: Path = BACKEND_DIR / "reports/diploma_chapter_1_draft.md"
+    diploma_chapter_2_draft_path: Path = BACKEND_DIR / "reports/diploma_chapter_2_draft.md"
+    diploma_conclusion_draft_path: Path = BACKEND_DIR / "reports/diploma_conclusion_draft.md"
+    diploma_full_draft_path: Path = BACKEND_DIR / "reports/diploma_full_draft.md"
+    diploma_presentation_outline_path: Path = BACKEND_DIR / "reports/diploma_presentation_outline.md"
+    diploma_defense_speech_path: Path = BACKEND_DIR / "reports/diploma_defense_speech.md"
+    raw_dataset_path: Path = BACKEND_DIR / "data/respiratory_seed_cases.csv"
+    canonical_dataset_path: Path = BACKEND_DIR / "data/respiratory_canonical_dataset.csv"
+    feature_dataset_path: Path = BACKEND_DIR / "data/respiratory_feature_dataset.csv"
+    dataset_split_path: Path = BACKEND_DIR / "data/respiratory_train_test_split.json"
+    dataset_profile_path: Path = BACKEND_DIR / "data/respiratory_seed_profile.json"
+    dataset_profile_markdown_path: Path = BACKEND_DIR / "data/respiratory_seed_profile.md"
+    data_quality_path: Path = BACKEND_DIR / "data/respiratory_data_quality.json"
+    data_quality_markdown_path: Path = BACKEND_DIR / "data/respiratory_data_quality.md"
+    cleaning_report_path: Path = BACKEND_DIR / "data/respiratory_cleaning_report.json"
+    cleaning_report_markdown_path: Path = BACKEND_DIR / "data/respiratory_cleaning_report.md"
 
     model_config = SettingsConfigDict(
         env_file=".env",

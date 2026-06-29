@@ -1,5 +1,5 @@
 {
-  "dataset_path": "data/respiratory_canonical_dataset.csv",
+  "dataset_path": "/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/respiratory_canonical_dataset.csv",
   "total_rows": 203,
   "duplicate_rows": 5,
   "duplicate_rate": 0.025,

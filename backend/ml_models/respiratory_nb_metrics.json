@@ -1,8 +1,8 @@
 {
-  "raw_dataset_path": "data/respiratory_seed_cases.csv",
-  "feature_dataset_path": "data/respiratory_feature_dataset.csv",
-  "split_manifest_path": "data/respiratory_train_test_split.json",
-  "model_path": "ml_models/respiratory_nb_model.json",
+  "raw_dataset_path": "/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/respiratory_seed_cases.csv",
+  "feature_dataset_path": "/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/respiratory_feature_dataset.csv",
+  "split_manifest_path": "/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/respiratory_train_test_split.json",
+  "model_path": "/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/ml_models/respiratory_nb_model.json",
   "train_samples": 162,
   "test_samples": 41,
   "feature_names": [

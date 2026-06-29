@@ -1,5 +1,5 @@
 {
-  "dataset_path": "data/respiratory_seed_cases.csv",
+  "dataset_path": "/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/respiratory_seed_cases.csv",
   "total_rows": 203,
   "total_labels": 7,
   "label_distribution": {

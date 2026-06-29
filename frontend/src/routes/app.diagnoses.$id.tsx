@@ -96,7 +96,10 @@ async function downloadPdf(d: Diagnosis) {
   }
 
   if (d.recommendations?.length > 0) {
-    if (y > 250) { doc.addPage(); y = margin; }
+    if (y > 250) {
+      doc.addPage();
+      y = margin;
+    }
     doc.setFontSize(14);
     doc.text("Recommendations", margin, y);
     y += 8;
@@ -109,7 +112,10 @@ async function downloadPdf(d: Diagnosis) {
   }
 
   if (d.is_confirmed && d.confirmed_condition) {
-    if (y > 250) { doc.addPage(); y = margin; }
+    if (y > 250) {
+      doc.addPage();
+      y = margin;
+    }
     y += 6;
     doc.setFontSize(14);
     doc.text("Confirmed Diagnosis", margin, y);
@@ -234,7 +240,9 @@ function DiagnosisDetail() {
           </div>
           <div className="flex items-center gap-2 mt-1">
             <div className="text-2xl font-bold capitalize">{d.risk_level}</div>
-            <span className={`text-[10px] px-2 py-0.5 rounded-full border ${riskBadgeClass(d.risk_level)}`}>
+            <span
+              className={`text-[10px] px-2 py-0.5 rounded-full border ${riskBadgeClass(d.risk_level)}`}
+            >
               {d.risk_level}
             </span>
           </div>

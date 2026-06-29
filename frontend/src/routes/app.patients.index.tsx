@@ -38,7 +38,9 @@ function PatientsList() {
     return (
       <div className="space-y-4">
         <Skeleton className="h-8 w-48" />
-        <GlassCard><Skeleton className="h-32 w-full" /></GlassCard>
+        <GlassCard>
+          <Skeleton className="h-32 w-full" />
+        </GlassCard>
       </div>
     );
   }

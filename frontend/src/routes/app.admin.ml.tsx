@@ -37,11 +37,14 @@ interface FeatureSignal {
 }
 
 interface ExplainReport {
-  per_label: Record<string, {
-    sample_count: number;
-    prior_probability: number;
-    top_feature_signals: FeatureSignal[];
-  }>;
+  per_label: Record<
+    string,
+    {
+      sample_count: number;
+      prior_probability: number;
+      top_feature_signals: FeatureSignal[];
+    }
+  >;
 }
 
 const CHART_COLORS = [
@@ -85,24 +88,32 @@ function MLPage() {
           disabled={retrainMutation.isPending}
           className="rounded-full"
         >
-          <RefreshCw
-            className={`size-4 mr-1 ${retrainMutation.isPending ? "animate-spin" : ""}`}
-          />{" "}
+          <RefreshCw className={`size-4 mr-1 ${retrainMutation.isPending ? "animate-spin" : ""}`} />{" "}
           {t("admin.retrain")}
         </Button>
       </div>
 
       {isLoading ? (
         <div className="space-y-4">
-          <GlassCard><Skeleton className="h-32 w-full" /></GlassCard>
-          <GlassCard><Skeleton className="h-64 w-full" /></GlassCard>
+          <GlassCard>
+            <Skeleton className="h-32 w-full" />
+          </GlassCard>
+          <GlassCard>
+            <Skeleton className="h-64 w-full" />
+          </GlassCard>
         </div>
       ) : (
         <Tabs defaultValue="metrics">
           <TabsList className="rounded-xl bg-background/60 backdrop-blur">
-            <TabsTrigger value="metrics" className="rounded-lg">{t("admin.overallAccuracy")}</TabsTrigger>
-            <TabsTrigger value="features" className="rounded-lg">{t("admin.featureImportance")}</TabsTrigger>
-            <TabsTrigger value="raw" className="rounded-lg">{t("admin.rawData")}</TabsTrigger>
+            <TabsTrigger value="metrics" className="rounded-lg">
+              {t("admin.overallAccuracy")}
+            </TabsTrigger>
+            <TabsTrigger value="features" className="rounded-lg">
+              {t("admin.featureImportance")}
+            </TabsTrigger>
+            <TabsTrigger value="raw" className="rounded-lg">
+              {t("admin.rawData")}
+            </TabsTrigger>
           </TabsList>
 
           <TabsContent value="metrics" className="space-y-4 mt-4">
@@ -192,7 +203,9 @@ function MLPage() {
               </>
             ) : (
               <GlassCard>
-                <p className="text-center text-sm text-muted-foreground py-8">{t("common.empty")}</p>
+                <p className="text-center text-sm text-muted-foreground py-8">
+                  {t("common.empty")}
+                </p>
               </GlassCard>
             )}
           </TabsContent>
@@ -203,7 +216,8 @@ function MLPage() {
                 <GlassCard key={label}>
                   <h3 className="font-semibold mb-1">{label}</h3>
                   <p className="text-xs text-muted-foreground mb-4">
-                    Prior: {(data.prior_probability * 100).toFixed(1)}% · {t("admin.support")}: {data.sample_count}
+                    Prior: {(data.prior_probability * 100).toFixed(1)}% · {t("admin.support")}:{" "}
+                    {data.sample_count}
                   </p>
                   <div className="h-48">
                     <ResponsiveContainer width="100%" height="100%">
@@ -215,7 +229,12 @@ function MLPage() {
                         layout="vertical"
                         margin={{ top: 0, right: 20, left: 0, bottom: 0 }}
                       >
-                        <XAxis type="number" tick={{ fontSize: 11, fill: "var(--muted-foreground)" }} axisLine={false} tickLine={false} />
+                        <XAxis
+                          type="number"
+                          tick={{ fontSize: 11, fill: "var(--muted-foreground)" }}
+                          axisLine={false}
+                          tickLine={false}
+                        />
                         <YAxis
                           type="category"
                           dataKey="name"
@@ -246,7 +265,9 @@ function MLPage() {
               ))
             ) : (
               <GlassCard>
-                <p className="text-center text-sm text-muted-foreground py-8">{t("common.empty")}</p>
+                <p className="text-center text-sm text-muted-foreground py-8">
+                  {t("common.empty")}
+                </p>
               </GlassCard>
             )}
           </TabsContent>
@@ -267,9 +288,7 @@ function MLPage() {
 
 function ConfusionMatrix({ matrix }: { matrix: Record<string, Record<string, number>> }) {
   const labels = Object.keys(matrix);
-  const maxVal = Math.max(
-    ...labels.flatMap((r) => labels.map((c) => matrix[r]?.[c] ?? 0))
-  );
+  const maxVal = Math.max(...labels.flatMap((r) => labels.map((c) => matrix[r]?.[c] ?? 0)));
 
   return (
     <div className="overflow-x-auto">
@@ -278,7 +297,11 @@ function ConfusionMatrix({ matrix }: { matrix: Record<string, Record<string, num
           <tr>
             <th className="py-1 px-2 text-muted-foreground" />
             {labels.map((l) => (
-              <th key={l} className="py-1 px-2 text-muted-foreground font-medium text-center max-w-20 truncate" title={l}>
+              <th
+                key={l}
+                className="py-1 px-2 text-muted-foreground font-medium text-center max-w-20 truncate"
+                title={l}
+              >
                 {l.length > 12 ? l.slice(0, 10) + "…" : l}
               </th>
             ))}
@@ -287,7 +310,10 @@ function ConfusionMatrix({ matrix }: { matrix: Record<string, Record<string, num
         <tbody>
           {labels.map((actual) => (
             <tr key={actual}>
-              <td className="py-1 px-2 font-medium text-muted-foreground text-right max-w-28 truncate" title={actual}>
+              <td
+                className="py-1 px-2 font-medium text-muted-foreground text-right max-w-28 truncate"
+                title={actual}
+              >
                 {actual.length > 15 ? actual.slice(0, 13) + "…" : actual}
               </td>
               {labels.map((predicted) => {

@@ -1,6 +1,6 @@
 # Respiratory Dataset Quality Report
 
-- Dataset path: `data/respiratory_canonical_dataset.csv`
+- Dataset path: `/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/respiratory_canonical_dataset.csv`
 - Total rows: `203`
 - Duplicate rows: `5`
 - Duplicate rate: `0.025`

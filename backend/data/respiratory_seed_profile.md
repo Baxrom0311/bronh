@@ -1,6 +1,6 @@
 # Respiratory Seed Dataset Profile
 
-- Dataset path: `data/respiratory_seed_cases.csv`
+- Dataset path: `/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/respiratory_seed_cases.csv`
 - Total rows: `203`
 - Total labels: `7`
 

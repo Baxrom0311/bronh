@@ -1,5 +1,5 @@
 {
-  "source_path": "data/respiratory_seed_cases.csv",
+  "source_path": "/Users/baxrom/ish_full/dimlom_ishi/bronh/backend/data/respiratory_seed_cases.csv",
   "mapping_path": null,
   "raw_columns": [
     "temperature",

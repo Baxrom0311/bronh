@@ -7,6 +7,7 @@ from fastapi.testclient import TestClient
 
 os.environ["CDSS_DATABASE_URL"] = "sqlite:///./test_cdss.db"
 os.environ["CDSS_JWT_SECRET_KEY"] = "test-secret-key"
+os.environ["CDSS_ALLOW_PUBLIC_ROLE_SELECTION"] = "true"
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:

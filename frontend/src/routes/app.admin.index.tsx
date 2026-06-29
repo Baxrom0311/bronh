@@ -45,11 +45,36 @@ function AdminStatsPage() {
     );
 
   const tiles = [
-    { label: t("admin.totalUsers"), value: stats.total_users, icon: Users, color: "from-sky-400 to-blue-500" },
-    { label: t("admin.totalPatients"), value: stats.total_patients, icon: Stethoscope, color: "from-teal-400 to-emerald-500" },
-    { label: t("admin.totalRecords"), value: stats.total_symptom_records, icon: ClipboardList, color: "from-amber-400 to-orange-500" },
-    { label: t("admin.totalDiagnoses"), value: stats.total_diagnoses, icon: BrainCircuit, color: "from-violet-400 to-fuchsia-500" },
-    { label: t("admin.confirmed"), value: stats.confirmed_diagnoses, icon: CheckCircle2, color: "from-emerald-400 to-green-500" },
+    {
+      label: t("admin.totalUsers"),
+      value: stats.total_users,
+      icon: Users,
+      color: "from-sky-400 to-blue-500",
+    },
+    {
+      label: t("admin.totalPatients"),
+      value: stats.total_patients,
+      icon: Stethoscope,
+      color: "from-teal-400 to-emerald-500",
+    },
+    {
+      label: t("admin.totalRecords"),
+      value: stats.total_symptom_records,
+      icon: ClipboardList,
+      color: "from-amber-400 to-orange-500",
+    },
+    {
+      label: t("admin.totalDiagnoses"),
+      value: stats.total_diagnoses,
+      icon: BrainCircuit,
+      color: "from-violet-400 to-fuchsia-500",
+    },
+    {
+      label: t("admin.confirmed"),
+      value: stats.confirmed_diagnoses,
+      icon: CheckCircle2,
+      color: "from-emerald-400 to-green-500",
+    },
   ];
 
   const roleData = Object.entries(stats.users_by_role).map(([role, count]) => ({
@@ -58,9 +83,10 @@ function AdminStatsPage() {
     color: ROLE_COLORS[role] || "oklch(0.68 0.15 155)",
   }));
 
-  const confirmRate = stats.total_diagnoses > 0
-    ? Math.round((stats.confirmed_diagnoses / stats.total_diagnoses) * 100)
-    : 0;
+  const confirmRate =
+    stats.total_diagnoses > 0
+      ? Math.round((stats.confirmed_diagnoses / stats.total_diagnoses) * 100)
+      : 0;
 
   return (
     <div className="space-y-6">
@@ -71,10 +97,14 @@ function AdminStatsPage() {
           <GlassCard key={tile.label}>
             <div className="flex items-start justify-between">
               <div>
-                <div className="text-xs uppercase tracking-wider text-muted-foreground">{tile.label}</div>
+                <div className="text-xs uppercase tracking-wider text-muted-foreground">
+                  {tile.label}
+                </div>
                 <div className="text-3xl font-bold mt-2">{tile.value}</div>
               </div>
-              <div className={`size-10 rounded-2xl bg-gradient-to-br ${tile.color} flex items-center justify-center shadow-lg`}>
+              <div
+                className={`size-10 rounded-2xl bg-gradient-to-br ${tile.color} flex items-center justify-center shadow-lg`}
+              >
                 <tile.icon className="size-4 text-white" />
               </div>
             </div>
@@ -135,14 +165,11 @@ function AdminStatsPage() {
           <div className="flex items-center justify-center py-6">
             <div className="relative size-36">
               <svg viewBox="0 0 100 100" className="size-full -rotate-90">
+                <circle cx="50" cy="50" r="42" fill="none" stroke="var(--muted)" strokeWidth="8" />
                 <circle
-                  cx="50" cy="50" r="42"
-                  fill="none"
-                  stroke="var(--muted)"
-                  strokeWidth="8"
-                />
-                <circle
-                  cx="50" cy="50" r="42"
+                  cx="50"
+                  cy="50"
+                  r="42"
                   fill="none"
                   stroke="var(--primary)"
                   strokeWidth="8"

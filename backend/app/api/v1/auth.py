@@ -10,7 +10,7 @@ from app.core.config import settings
 from app.core.database import get_db
 from app.core.security import create_access_token, create_refresh_token, decode_token, get_password_hash, verify_password
 from app.models.auth_session import AuthSession
-from app.models.user import User
+from app.models.user import User, UserRole
 from app.schemas.auth import (
     LoginRequest,
     LogoutRequest,
@@ -86,7 +86,7 @@ def register(payload: RegisterRequest, db: Session = Depends(get_db)) -> User:
     user = User(
         email=payload.email,
         full_name=payload.full_name,
-        role=payload.role,
+        role=payload.role if settings.allow_public_role_selection else UserRole.patient,
         preferred_language=payload.preferred_language,
         hashed_password=get_password_hash(payload.password),
     )

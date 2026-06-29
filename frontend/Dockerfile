@@ -9,7 +9,7 @@ COPY index.html tsconfig.json vite.config.ts ./
 COPY public ./public
 COPY src ./src
 
-ARG VITE_API_BASE_URL=http://164.90.183.111:8000/api/v1
+ARG VITE_API_BASE_URL=/api/v1
 ENV VITE_API_BASE_URL=${VITE_API_BASE_URL}
 
 RUN npm run build
